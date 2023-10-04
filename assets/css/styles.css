@@ -124,6 +124,9 @@ a {
 .top-5 {
     top: -5px;
 }
+.top-44 {
+    top: -44px;
+}
 .top-124 {
     top: 124px;
 }
@@ -132,6 +135,9 @@ a {
 }
 .left-241{
     left: -241px
+}
+.right-241{
+    right: -241px
 }
 .h-100vh {
     height: 100vh;
@@ -397,7 +403,9 @@ a {
 .rotate-180 {
     transform: rotate(180deg);
 }
-
+.rotate-67{
+    transform: rotate(67deg);
+}
 .rounded-lg {
     border-radius: .5rem;
 }
