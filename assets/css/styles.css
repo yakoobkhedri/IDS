@@ -101,7 +101,20 @@ a {
     text-decoration: none;
     transition: all .4s;
 }
-
+.second-hover:hover{
+    background-color: white;
+    color: #053B50!important;
+    border: 1px solid #053B50!important;
+}
+.rounded-bl-0{
+  border-radius: 20px 20px 20px 0;
+}
+.rounded-tl-0{
+    border-radius: 0 20px 20px 20px;
+}
+.rounded-tr-0{
+    border-radius: 20px 0 20px 20px;
+}
 .cursor-pointer {
     cursor: pointer;
 }
@@ -116,6 +129,9 @@ a {
 }
 .top-171 {
     top: 171px;
+}
+.left-241{
+    left: -241px
 }
 .h-100vh {
     height: 100vh;
