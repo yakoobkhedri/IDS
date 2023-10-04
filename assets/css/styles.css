@@ -31,12 +31,21 @@ body.pannel {
 .main-text {
     color: #64CCC5;
 }
-
-
 .main-bg {
     background-color: #64CCC5;
 }
-
+.main-gradient{
+    background: rgb(100,204,197);
+    background: linear-gradient(90deg, rgb(100, 204, 197) 0%, rgb(100, 204, 197) 22%, rgb(251, 251, 251) 100%);
+}
+.main-gradient:hover{
+    background: rgb(226,248,246);
+    background: linear-gradient(90deg, rgba(226,248,246,1) 0%, rgba(100,204,197,1) 22%, rgba(100,204,197,1) 100%);
+    color: #053B50;
+}
+.shadow-hover:hover{
+ box-shadow: 0px 3px 9px #80808061;
+}
 .second-text {
     color: #053B50;
 }
@@ -68,9 +77,11 @@ body.pannel {
 }
 
 .bg-purple {
-    background: linear-gradient(rgba(112, 9, 9, 0) 0%, rgba(112, 9, 9, 0.07) 100%);
+    background-color: #7E37F0;
 }
-
+.bg-success2{
+    background-color: #26EC15;
+}
 .bg-gray2 {
     background-color: #9EA7AA;
 }
@@ -181,11 +192,18 @@ a {
 .w-36 {
     width: 36px;
 }
-
+.h-31 {
+    height: 31px;
+}
 .h-36 {
     height: 36px;
 }
-
+.h-26 {
+    height: 26px;
+}
+.w-26 {
+    width: 26px;
+}
 .w-24 {
     width: 6rem;
 }
@@ -231,7 +249,9 @@ a {
 .w-98 {
     width: 98px;
 }
-
+.w-123 {
+    width: 123px;
+}
 .w-136 {
     width: 136px;
 }
@@ -240,6 +260,9 @@ a {
 }
 .w-167 {
     width: 167px;
+}
+.w-178 {
+    width: 178px;
 }
 .h-106 {
     height: 106px;
@@ -493,11 +516,11 @@ input[type='number'],
 /* header */
 
 /* banner */
-.colors div.w-36{
+.colors div.w-36,.colors div.w-26{
     border: 3px solid transparent;
     transition: all .4s;
 }
-.colors div.w-36:hover{
+.colors div.w-36:hover,.colors div.w-26:hover{
     border: 3px solid #053B50;
 }
 /* services */
