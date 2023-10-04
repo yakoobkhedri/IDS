@@ -530,6 +530,16 @@ input[type='number'],
 .service-box:hover p,.service-box:hover svg{
     color: white!important;
 }
+/* models */
+.swiper.models .shadow-hover .addToCart{
+    opacity: 0;
+    z-index: -3;
+}
+.swiper.models .shadow-hover:hover .addToCart{
+    margin-bottom: 12px;
+    opacity: 100%;
+    z-index: 4;
+}
 @media only screen and (min-width:1200px) {
 
 }

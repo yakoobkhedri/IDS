@@ -2,7 +2,7 @@
 var models = new Swiper(".models", {
     loop: true,
     slidesPerView: 1,
-    spaceBetween: 29,
+    spaceBetween: 20,
     breakpoints: {
         576: {
             slidesPerView: 1
