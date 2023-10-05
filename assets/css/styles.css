@@ -29,7 +29,7 @@ body.pannel {
 }
 
 .main-text {
-    color: #64CCC5;
+    color: #64CCC5!important;
 }
 .main-bg {
     background-color: #64CCC5;
@@ -47,7 +47,7 @@ body.pannel {
  box-shadow: 0px 3px 9px #80808061;
 }
 .second-text {
-    color: #053B50;
+    color: #053B50!important;
 }
 .second-text2{
     color: #053B50;
@@ -444,7 +444,9 @@ a {
 .rounded-lg {
     border-radius: .5rem;
 }
-
+.rounded-10 {
+    border-radius: 10px!important;
+}
 .rounded-4 {
     border-radius: 1rem;
 }
@@ -528,6 +530,36 @@ input[type='number'],
   font-size: 26px;
   color: #053B50;
 }
+.accordion-header,.accordion-item .accordion-button {
+   border-radius: 10px!important;
+   background: rgb(217,217,217);
+   background: linear-gradient(90deg, rgb(243, 242, 242) 0%, rgb(159, 211, 207) 66%, #d1f0ee 100%);
+  }
+  .accordion-item {
+    border: none;
+    background-color: transparent;
+  }
+  .accordion-button:not(.collapsed),.accordion-button {
+   color: #053B50;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("../img/Vector\ 9.png");
+    left: 21px;
+    position: absolute;
+    width: 21px;
+    height: 15px;
+  }
+  .accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+    background-image: url("../img/Vector\ 9.png");
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
+  }
 /* header */
 
 /* banner */
