@@ -24,7 +24,6 @@ var models = new Swiper(".models", {
 });
 var testimonials = new Swiper(".testimonials", {
     effect: "coverflow",
-    loop:true,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",

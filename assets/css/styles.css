@@ -152,7 +152,9 @@ a {
 .cursor-pointer {
     cursor: pointer;
 }
-
+.mt-93 {
+    margin-top: -93px;
+}
 .mt-106 {
     margin-top: 106px;
 }
@@ -786,6 +788,9 @@ footer {
 @media only screen and (max-width:992px) {
     footer{
         background-color: #053B50;
+    }
+    footer .top-8{
+        top: -33px;
     }
 }
 
