@@ -811,6 +811,20 @@ footer {
 }
 
 @media only screen and (max-width:576px) {
+    #banner .fs-64{
+        font-size: 48px;
+    }
+    #banner .bottom-165 {
+        bottom: 77px;
+      }
+      .social-icon {
+        width: 34px;
+        height: 34px;
+      }
+      .social-icon svg {
+        width: 16px;
+        height: 16px;
+      }
 }
 
 @media only screen and (max-width:400px) {}

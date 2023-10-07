@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/fancybox.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
   <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
@@ -114,13 +115,13 @@
   <main>
 
     <!-- banner -->
-    <section class="mb-pb-5">
+    <section id="banner" class="mb-pb-5">
       <div class="container">
         <div class="row mt-0 mt-lg-4">
           <div class="col-lg-5 order-1 order-lg-0 pt-5 pt-md-0">
             <!-- title -->
-            <h1 class="text-center font-bold fs-64 second-text mt-lg-2 mt-5 position-relative">
-              <svg class="position-absolute end-0 start-0 top-0 mx-auto z-1" xmlns="http://www.w3.org/2000/svg"
+            <h1 class="text-center font-bold fs-64 second-text mt-lg-2 mt-0 mt-sm-5 position-relative" data-aos="flip-left">
+              <svg class="position-absolute d-none d-sm-block end-0 start-0 top-0 mx-auto z-1" xmlns="http://www.w3.org/2000/svg"
                 height="87" viewBox="0 0 385 87" fill="none">
                 <path
                   d="M88.2988 84C185.086 80.0622 379.323 64.8031 381.977 35.2693C385.296 -1.6479 21.1012 -13.4614 3.67954 35.2693C-10.2578 74.2539 193.658 84 297.358 84"
@@ -131,7 +132,7 @@
               هوشمند
             </h1>
             <!-- description -->
-            <p class="fs-20 mt-3 text-justify">در سامانه هوشمند خدمات پرینت سه بعدی، قیمتگذاری تماما به صورت آنلاین
+            <p class="fs-20 mt-3 text-justify" data-aos="fade-up">در سامانه هوشمند خدمات پرینت سه بعدی، قیمتگذاری تماما به صورت آنلاین
               انجام می شود . در این روش قیمت گذاری حجم و جنس ماده اولیه مصرفی، دقت دلخواه و جزییات قطعه مورد نظر بررسی
               می شود.</p>
             <!-- order submit -->
@@ -203,7 +204,7 @@
                   stroke="white" stroke-width="3" stroke-linejoin="bevel" stroke-dasharray="6 6" />
               </svg>
               <img alt="banner" src="assets/img/banner.png" class="img-fluid w-50 mx-auto d-block mt-2 pt-5">
-              <div
+              <div data-aos="fade-left"
                 class="d-flex colors position-absolute bottom-165 start-50 align-items-center justify-content-between me-5 w-167 h-41 bg-gray rounded-pill p-1">
                 <div class="w-36 h-36 cursor-pointer rounded-circle bg-orange"></div>
                 <div class="w-36 h-36 cursor-pointer rounded-circle bg-brown"></div>
@@ -1010,7 +1011,7 @@
       <div class="container">
          <div class="rounded-15 h-97 px-md-5 px-3 social-bg d-flex align-items-center justify-content-between">
            <div class="d-flex align-items-center gap-4 flex-shrink-0">
-              <img alt="social" src="assets/img/mockup 1.png" class="img-fluid">
+              <img alt="social" src="assets/img/mockup 1.png" class="img-fluid railY2">
               <p class="fs-20 text-white mb-0 d-none d-lg-block">ما را در شبکه های مجازی دنبال کنید</p>
            </div>
            <div class="d-flex align-items-center gap-3">
@@ -1088,6 +1089,7 @@
 
   <script src="assets/js/jquery-3.7.1.min.js"></script>
   <script src="assets/js/fancybox.umd.js"></script>
+  <script src="assets/js/aos.js"></script>
   <!-- Swiper JS -->
   <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/scripts.js"></script>

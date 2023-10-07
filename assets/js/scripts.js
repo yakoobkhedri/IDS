@@ -1,3 +1,6 @@
+// aos
+AOS.init();
+
 // swiper
 var models = new Swiper(".models", {
     loop: true,
