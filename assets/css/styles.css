@@ -652,6 +652,7 @@ input[type='number'],
 .accordion-button:not(.collapsed),
 .accordion-button {
     color: #053B50;
+    text-align: right;
 }
 
 .accordion-button:focus {
@@ -782,10 +783,19 @@ footer {
 
 @media only screen and (max-width:1200px) {}
 
-@media only screen and (max-width:992px) {}
+@media only screen and (max-width:992px) {
+    footer{
+        background-color: #053B50;
+    }
+}
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:768px) {
+    .insta{
+        width: 52px;
+    }
+}
 
-@media only screen and (max-width:576px) {}
+@media only screen and (max-width:576px) {
+}
 
 @media only screen and (max-width:400px) {}
