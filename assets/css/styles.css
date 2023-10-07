@@ -116,7 +116,7 @@ body.pannel {
     border-bottom: 7px solid #64ccc5;
 }
 
-.transition {
+.transition,svg.path,circle {
     transition: all .4s;
 }
 
@@ -127,11 +127,19 @@ a {
 }
 
 .second-hover:hover {
-    background-color: white;
+    background-color: transparent;
     color: #053B50 !important;
     border: 1px solid #053B50 !important;
 }
-
+.second-hover:hover path,.second-hover:hover circle  {
+    color: #053B50 !important;
+    stroke: #053B50 !important;
+}
+.main-hover2:hover path,.main-hover2:hover circle,.main-hover2:hover  {
+    color: #64ccc5 !important;
+    stroke: #64ccc5 !important;
+    background-color: transparent;
+}
 .main-hover:hover {
     background-color: #64ccc5;
     color: white !important;
@@ -728,7 +736,9 @@ input[type='number'],
     }
 }
 /* header */
-
+header a:hover,header a.active,footer ul a:hover,.bannerLinks a:hover{
+    color: #64ccc5!important
+}
 /* banner */
 .colors div.w-36,
 .colors div.w-26 {
