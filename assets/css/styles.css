@@ -762,12 +762,12 @@ header a:hover,header a.active,footer ul a:hover,.bannerLinks a:hover{
 }
 
 /* models */
-.swiper.models .shadow-hover .addToCart {
+.shadow-hover .addToCart {
     opacity: 0;
     z-index: -3;
 }
 
-.swiper.models .shadow-hover:hover .addToCart {
+.shadow-hover:hover .addToCart {
     margin-bottom: 12px;
     opacity: 100%;
     z-index: 4;
