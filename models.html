@@ -16,7 +16,7 @@
 
   <!-- header -->
 
-  <header class="py-5">
+  <header class="py-4 border-bottom">
     <nav class="container">
       <div class="d-flex align-items-center justify-content-between">
         <!-- ham icon -->
@@ -114,6 +114,23 @@
 
   <main>
 
+    <!-- breadcrumb -->
+    <section class="mt-4 me-5 pe-5">
+      <div class="container">
+        <div class="d-flex align-items-center gap-3 fs-14">
+          <a class="text-muted">خانه</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="3" height="16" viewBox="0 0 3 16" fill="none">
+            <path d="M2.23576 15.3727H0.771211V0.203637H2.23576V15.3727Z" fill="#5B7E8B"/>
+            </svg>
+          <a class="text-muted">خدمات ساخت</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="3" height="16" viewBox="0 0 3 16" fill="none">
+            <path d="M2.23576 15.3727H0.771211V0.203637H2.23576V15.3727Z" fill="#5B7E8B"/>
+            </svg>
+          <p class="text-dark mb-0">بانک مدل سه بعدی</p>
+        </div>
+      </div>
+    </section>
+
     <!-- models -->
     <section class="mt-4 position-relative">
       <!-- shape -->
@@ -142,8 +159,33 @@
       </svg>
       <!--  -->
       <div class="container">
+        <div class="d-flex align-items-center justify-content-between mt-5">
+         <h5 class="fw-bold text-dark fs-20 flex-shrink-0">مدل‌های آماده پرینت</h5>
+         <div class="d-flex align-items-center gap-5">
+          <div class="border-bottom pb-2 w-363">
+            <div class="d-flex align-items-center gap-1">
+             <p class="text-dark fw-bold mb-0">مجموعه:</p>
+             <select class="text-info fw-bold flex-grow-1 border-0 bg-transparent">
+              <option>همه</option>
+              <option>همه</option>
+              <option>همه</option>
+             </select>
+            </div>
+          </div>
+          <div class="border-bottom pb-2 w-363">
+            <div class="d-flex align-items-center gap-1">
+             <input placeholder="جستجو محصول" class="flex-grow-1 bg-transparent border-0 outline-none">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <circle cx="11" cy="11" r="7" stroke="#B8B5B5" stroke-width="2"/>
+              <path d="M11 8C10.606 8 10.2159 8.0776 9.85195 8.22836C9.48797 8.37913 9.15726 8.6001 8.87868 8.87868C8.6001 9.15726 8.37913 9.48797 8.22836 9.85195C8.0776 10.2159 8 10.606 8 11" stroke="#B8B5B5" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 20L17 17" stroke="#B8B5B5" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+         </div>
+        </div>
         <!--  -->
-        <div class="mt-2 py-5 px-2" data-aos-duration="2000" data-aos="flip-down">
+        <div class="py-4 px-2" data-aos-duration="2000" data-aos="flip-down">
           <div class="row g-4">
             <div class="col-xl-3 col-lg-4 col-sm-6">
               <div class="rounded-4 border overflow-hidden shadow-hover transition bg-white">

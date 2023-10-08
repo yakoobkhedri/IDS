@@ -398,7 +398,9 @@ a {
 .w-290 {
     width: 290px;
 }
-
+.w-363{
+    width: 363px!important;
+}
 .w-330 {
     width: 330px;
 }
@@ -595,7 +597,9 @@ a {
 .opacity-none {
     opacity: 0;
 }
-
+.outline-none{
+    outline: none;
+}
 
 .iti__country-list {
     width: 249px;
