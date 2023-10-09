@@ -170,7 +170,9 @@ a {
 .top-5 {
     top: -5px;
 }
-
+.top-31 {
+    top: -31px;
+}
 .top-44 {
     top: -44px;
 }
@@ -182,7 +184,9 @@ a {
 .top-171 {
     top: 171px;
 }
-
+.left-31 {
+    left: -31px
+}
 .left-241 {
     left: -241px
 }
@@ -786,7 +790,13 @@ header a:hover,header a.active,footer ul a:hover,.bannerLinks a:hover{
 .social-icon {
     border: 2px solid white;
 }
-
+/* portfolio page */
+.portfolio-banner{
+    background-image: url('../img/portfolio-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* footer */
 footer {
     background-image: url('../img/footer.png');
