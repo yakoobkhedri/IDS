@@ -190,11 +190,18 @@ a {
 .top-44 {
     top: -44px;
 }
-
+.top-117{
+    top: 117px;
+}
 .top-124 {
     top: 124px;
 }
-
+.top-129{
+    top: 129px;
+}
+.top-156 {
+    top: 156px;
+}
 .top-171 {
     top: 171px;
 }
@@ -204,11 +211,16 @@ a {
 .left-241 {
     left: -241px
 }
-
+.right-23 {
+    right: -23px
+}
 .right-241 {
     right: -241px
 }
-
+.max-w-770{
+    max-width: 770px;
+    width: 100%;
+}
 .h-100vh {
     height: 100vh;
 }
@@ -308,7 +320,12 @@ a {
 .h-41 {
     height: 41px;
 }
-
+.h-44 {
+    height: 44px;
+}
+.h-45 {
+    height: 45px;
+}
 .h-46 {
     height: 46px;
 }
@@ -522,11 +539,15 @@ a {
 .top-101 {
     top: 100px;
 }
-
+.top-213 {
+    top: 213px;
+}
 .top-250 {
     top: 250px;
 }
-
+.right-3{
+    right: -3px;
+}
 .right-65 {
     right: 65px;
 }
@@ -676,7 +697,6 @@ input[type='number'],
     font-size: 26px;
     color: #053B50;
 }
-
 .accordion-header,
 .accordion-item .accordion-button {
     border-radius: 10px !important;
