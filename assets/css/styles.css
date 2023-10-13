@@ -38,6 +38,9 @@ body.pannel {
 .bg-info2{
     background-color: #D1ECF1;
 }
+.bg-yellow{
+    background-color: #FFE603;
+}
 .main-gradient {
     background: rgb(100, 204, 197);
     background: linear-gradient(90deg, rgb(100, 204, 197) 0%, rgb(100, 204, 197) 22%, rgb(251, 251, 251) 100%);
