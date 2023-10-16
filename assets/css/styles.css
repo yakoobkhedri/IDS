@@ -132,7 +132,9 @@ body.pannel {
 .border-info {
     border: 1px solid #64ccc561;
 }
-
+.border-second{
+    border: 1px solid #053B50;
+}
 .border-b-info {
     border-bottom: 6px solid #64ccc5;
 }
