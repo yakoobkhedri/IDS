@@ -14,6 +14,355 @@
 
 <body>
 
+  <!-- new metal Modal -->
+<form class="modal fade" id="newMetalModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered max-w-876">
+    <div class="modal-content rounded-10">
+      <div class="modal-body p-4">
+        <div class="rounded-10 border-dotted p-4 bg-upload d-flex align-items-center justify-content-center">
+          <div class="text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78" fill="none">
+              <mask id="path-1-outside-1_12_3255" maskUnits="userSpaceOnUse" x="7.35986" y="29.5567" width="63" height="38" fill="black">
+              <rect fill="white" x="7.35986" y="29.5567" width="63" height="38"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M36.1099 33.5808C30.3869 34.5247 25.7367 38.655 24.0456 44.0905L24.0328 44.1318C23.9201 44.4942 23.8143 44.8343 23.6994 45.1047C23.577 45.3924 23.3921 45.734 23.0477 45.9875C22.7151 46.2324 22.3554 46.313 22.0468 46.3466C21.7686 46.377 21.4359 46.3769 21.0936 46.3769H21.0935L21.0501 46.3769H19.1099C14.2774 46.3769 10.3599 50.2944 10.3599 55.1269C10.3599 59.9594 14.2774 63.8769 19.1099 63.8769H38.6099H63.8599C65.5167 63.8769 66.8599 62.5337 66.8599 60.8769V49.3769C66.8599 47.72 65.5167 46.3769 63.8599 46.3769H56.1696L56.1262 46.3769C55.7838 46.3769 55.4511 46.377 55.1729 46.3466C54.8643 46.313 54.5046 46.2324 54.172 45.9875C53.8277 45.734 53.6427 45.3924 53.5204 45.1047C53.4054 44.8343 53.2997 44.4943 53.187 44.1321L53.1869 44.1319L53.1741 44.0905C51.483 38.655 46.8328 34.5247 41.1099 33.5808V31.5567C47.7354 32.5185 53.1392 37.2459 55.0838 43.4964C55.2139 43.9147 55.2902 44.1559 55.3609 44.322C55.3664 44.335 55.3715 44.3465 55.3762 44.3569L55.3898 44.3584C55.5461 44.3755 55.7671 44.3769 56.1696 44.3769H63.8599C66.6213 44.3769 68.8599 46.6155 68.8599 49.3769V60.8769C68.8599 63.6383 66.6213 65.8769 63.8599 65.8769H38.6099H19.1099C13.1728 65.8769 8.35986 61.0639 8.35986 55.1269C8.35986 49.1898 13.1728 44.3769 19.1099 44.3769H21.0501C21.4527 44.3769 21.6737 44.3755 21.8299 44.3584L21.8435 44.3569C21.8482 44.3465 21.8534 44.335 21.8589 44.322C21.9295 44.1559 22.0058 43.9147 22.1359 43.4964C24.0805 37.2459 29.4843 32.5185 36.1099 31.5567V33.5808Z"/>
+              </mask>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M36.1099 33.5808C30.3869 34.5247 25.7367 38.655 24.0456 44.0905L24.0328 44.1318C23.9201 44.4942 23.8143 44.8343 23.6994 45.1047C23.577 45.3924 23.3921 45.734 23.0477 45.9875C22.7151 46.2324 22.3554 46.313 22.0468 46.3466C21.7686 46.377 21.4359 46.3769 21.0936 46.3769H21.0935L21.0501 46.3769H19.1099C14.2774 46.3769 10.3599 50.2944 10.3599 55.1269C10.3599 59.9594 14.2774 63.8769 19.1099 63.8769H38.6099H63.8599C65.5167 63.8769 66.8599 62.5337 66.8599 60.8769V49.3769C66.8599 47.72 65.5167 46.3769 63.8599 46.3769H56.1696L56.1262 46.3769C55.7838 46.3769 55.4511 46.377 55.1729 46.3466C54.8643 46.313 54.5046 46.2324 54.172 45.9875C53.8277 45.734 53.6427 45.3924 53.5204 45.1047C53.4054 44.8343 53.2997 44.4943 53.187 44.1321L53.1869 44.1319L53.1741 44.0905C51.483 38.655 46.8328 34.5247 41.1099 33.5808V31.5567C47.7354 32.5185 53.1392 37.2459 55.0838 43.4964C55.2139 43.9147 55.2902 44.1559 55.3609 44.322C55.3664 44.335 55.3715 44.3465 55.3762 44.3569L55.3898 44.3584C55.5461 44.3755 55.7671 44.3769 56.1696 44.3769H63.8599C66.6213 44.3769 68.8599 46.6155 68.8599 49.3769V60.8769C68.8599 63.6383 66.6213 65.8769 63.8599 65.8769H38.6099H19.1099C13.1728 65.8769 8.35986 61.0639 8.35986 55.1269C8.35986 49.1898 13.1728 44.3769 19.1099 44.3769H21.0501C21.4527 44.3769 21.6737 44.3755 21.8299 44.3584L21.8435 44.3569C21.8482 44.3465 21.8534 44.335 21.8589 44.322C21.9295 44.1559 22.0058 43.9147 22.1359 43.4964C24.0805 37.2459 29.4843 32.5185 36.1099 31.5567V33.5808Z" fill="#D9D9D9"/>
+              <path d="M36.1099 33.5808L36.2726 34.5675L37.1099 34.4294V33.5808H36.1099ZM24.0456 44.0905L23.0908 43.7935L23.0908 43.7935L24.0456 44.0905ZM24.0328 44.1318L23.0779 43.8348L23.0779 43.8349L24.0328 44.1318ZM23.6994 45.1047L22.7791 44.7133L22.7791 44.7133L23.6994 45.1047ZM23.0477 45.9875L22.4548 45.1822V45.1822L23.0477 45.9875ZM22.0468 46.3466L22.1552 47.3408H22.1552L22.0468 46.3466ZM21.0936 46.3769L21.0937 45.3769H21.0936V46.3769ZM21.0935 46.3769L21.0934 47.3769H21.0935V46.3769ZM21.0501 46.3769L21.0502 45.3769H21.0501V46.3769ZM56.1696 46.3769V45.3769H56.1695L56.1696 46.3769ZM56.1262 46.3769L56.1261 45.3769H56.126L56.1262 46.3769ZM55.1729 46.3466L55.0645 47.3408H55.0645L55.1729 46.3466ZM54.172 45.9875L54.7649 45.1822L54.7649 45.1822L54.172 45.9875ZM53.5204 45.1047L54.4406 44.7133L54.4406 44.7133L53.5204 45.1047ZM53.187 44.1321L52.2302 44.4228L52.2321 44.4291L53.187 44.1321ZM53.1869 44.1319L54.1438 43.8412L54.1418 43.8349L53.1869 44.1319ZM53.1741 44.0905L54.129 43.7936L54.1289 43.7935L53.1741 44.0905ZM41.1099 33.5808H40.1099V34.4294L40.9471 34.5675L41.1099 33.5808ZM41.1099 31.5567L41.2535 30.5671L40.1099 30.4011V31.5567H41.1099ZM55.0838 43.4964L56.0386 43.1993V43.1993L55.0838 43.4964ZM55.3609 44.322L54.4406 44.7133L54.4406 44.7134L55.3609 44.322ZM55.3762 44.3569L54.4662 44.7716L54.7007 45.2861L55.2625 45.3504L55.3762 44.3569ZM55.3898 44.3584L55.2761 45.352L55.2813 45.3525L55.3898 44.3584ZM21.8299 44.3584L21.9384 45.3526L21.9436 45.352L21.8299 44.3584ZM21.8435 44.3569L21.9572 45.3504L22.5189 45.2861L22.7534 44.7717L21.8435 44.3569ZM21.8589 44.322L22.7791 44.7134L22.7791 44.7133L21.8589 44.322ZM22.1359 43.4964L23.0908 43.7935L22.1359 43.4964ZM36.1099 31.5567H37.1099V30.4011L35.9662 30.5671L36.1099 31.5567ZM35.9471 32.5942C29.8463 33.6003 24.8928 38.0013 23.0908 43.7935L25.0005 44.3876C26.5806 39.3087 30.9275 35.449 36.2726 34.5675L35.9471 32.5942ZM23.0908 43.7935L23.0779 43.8348L24.9877 44.4289L25.0005 44.3875L23.0908 43.7935ZM23.0779 43.8349C22.9604 44.2128 22.8702 44.4992 22.7791 44.7133L24.6196 45.496C24.7585 45.1694 24.8798 44.7756 24.9877 44.4288L23.0779 43.8349ZM22.7791 44.7133C22.6843 44.9362 22.5873 45.0847 22.4548 45.1822L23.6405 46.7928C24.1968 46.3833 24.4697 45.8487 24.6196 45.496L22.7791 44.7133ZM22.4548 45.1822C22.3226 45.2795 22.1615 45.3282 21.9384 45.3525L22.1552 47.3408C22.5493 47.2978 23.1075 47.1852 23.6405 46.7928L22.4548 45.1822ZM21.9384 45.3525C21.7256 45.3758 21.4525 45.3769 21.0937 45.3769L21.0934 47.3769C21.4194 47.3769 21.8117 47.3782 22.1552 47.3408L21.9384 45.3525ZM21.0936 45.3769H21.0935V47.3769H21.0936V45.3769ZM21.0936 45.3769L21.0502 45.3769L21.05 47.3769L21.0934 47.3769L21.0936 45.3769ZM21.0501 45.3769H19.1099V47.3769H21.0501V45.3769ZM19.1099 45.3769C13.7251 45.3769 9.35986 49.7421 9.35986 55.1269H11.3599C11.3599 50.8467 14.8297 47.3769 19.1099 47.3769V45.3769ZM9.35986 55.1269C9.35986 60.5117 13.7251 64.8769 19.1099 64.8769V62.8769C14.8297 62.8769 11.3599 59.4071 11.3599 55.1269H9.35986ZM19.1099 64.8769H38.6099V62.8769H19.1099V64.8769ZM38.6099 64.8769H63.8599V62.8769H38.6099V64.8769ZM63.8599 64.8769C66.069 64.8769 67.8599 63.086 67.8599 60.8769H65.8599C65.8599 61.9815 64.9644 62.8769 63.8599 62.8769V64.8769ZM67.8599 60.8769V49.3769H65.8599V60.8769H67.8599ZM67.8599 49.3769C67.8599 47.1677 66.069 45.3769 63.8599 45.3769V47.3769C64.9644 47.3769 65.8599 48.2723 65.8599 49.3769H67.8599ZM63.8599 45.3769H56.1696V47.3769H63.8599V45.3769ZM56.1695 45.3769L56.1261 45.3769L56.1263 47.3769L56.1697 47.3769L56.1695 45.3769ZM56.126 45.3769C55.7672 45.3769 55.4942 45.3758 55.2813 45.3525L55.0645 47.3408C55.408 47.3782 55.8004 47.3769 56.1264 47.3769L56.126 45.3769ZM55.2813 45.3525C55.0582 45.3282 54.8971 45.2795 54.7649 45.1822L53.5792 46.7928C54.1122 47.1852 54.6704 47.2978 55.0645 47.3408L55.2813 45.3525ZM54.7649 45.1822C54.6324 45.0847 54.5354 44.9362 54.4406 44.7133L52.6001 45.496C52.7501 45.8487 53.0229 46.3833 53.5792 46.7928L54.7649 45.1822ZM54.4406 44.7133C54.3496 44.4992 54.2594 44.2129 54.1419 43.8351L52.2321 44.4291C52.3399 44.7758 52.4613 45.1695 52.6001 45.496L54.4406 44.7133ZM54.1438 43.8414L54.1438 43.8412L52.2301 44.4225L52.2302 44.4228L54.1438 43.8414ZM54.1418 43.8349L54.129 43.7936L52.2192 44.3875L52.232 44.4288L54.1418 43.8349ZM54.1289 43.7935C52.3269 38.0013 47.3734 33.6003 41.2726 32.5942L40.9471 34.5675C46.2922 35.449 50.6391 39.3087 52.2192 44.3876L54.1289 43.7935ZM42.1099 33.5808V31.5567H40.1099V33.5808H42.1099ZM40.9662 32.5463C47.2048 33.452 52.297 37.9053 54.1289 43.7935L56.0386 43.1993C53.9813 36.5866 48.266 31.585 41.2535 30.5671L40.9662 32.5463ZM54.1289 43.7935C54.2523 44.19 54.3455 44.4897 54.4406 44.7133L56.2811 43.9307C56.235 43.8222 56.1755 43.6394 56.0386 43.1993L54.1289 43.7935ZM54.4406 44.7134C54.4493 44.7338 54.4579 44.7532 54.4662 44.7716L56.2861 43.9422C56.2851 43.9399 56.2834 43.9361 56.2811 43.9306L54.4406 44.7134ZM55.2625 45.3504L55.2761 45.352L55.5034 43.3649L55.4899 43.3634L55.2625 45.3504ZM55.2813 45.3525C55.5049 45.3769 55.7915 45.3769 56.1696 45.3769V43.3769C55.7426 43.3769 55.5872 43.374 55.4982 43.3643L55.2813 45.3525ZM56.1696 45.3769H63.8599V43.3769H56.1696V45.3769ZM63.8599 45.3769C66.069 45.3769 67.8599 47.1677 67.8599 49.3769H69.8599C69.8599 46.0632 67.1736 43.3769 63.8599 43.3769V45.3769ZM67.8599 49.3769V60.8769H69.8599V49.3769H67.8599ZM67.8599 60.8769C67.8599 63.086 66.069 64.8769 63.8599 64.8769V66.8769C67.1736 66.8769 69.8599 64.1906 69.8599 60.8769H67.8599ZM63.8599 64.8769H38.6099V66.8769H63.8599V64.8769ZM38.6099 64.8769H19.1099V66.8769H38.6099V64.8769ZM19.1099 64.8769C13.7251 64.8769 9.35986 60.5117 9.35986 55.1269H7.35986C7.35986 61.6162 12.6205 66.8769 19.1099 66.8769V64.8769ZM9.35986 55.1269C9.35986 49.7421 13.7251 45.3769 19.1099 45.3769V43.3769C12.6205 43.3769 7.35986 48.6375 7.35986 55.1269H9.35986ZM19.1099 45.3769H21.0501V43.3769H19.1099V45.3769ZM21.0501 45.3769C21.4282 45.3769 21.7148 45.3769 21.9384 45.3525L21.7215 43.3643C21.6325 43.374 21.4771 43.3769 21.0501 43.3769V45.3769ZM21.9436 45.352L21.9572 45.3504L21.7299 43.3634L21.7163 43.3649L21.9436 45.352ZM22.7534 44.7717C22.7618 44.7533 22.7704 44.7339 22.7791 44.7134L20.9386 43.9307C20.9363 43.9361 20.9347 43.9398 20.9336 43.9421L22.7534 44.7717ZM22.7791 44.7133C22.8742 44.4897 22.9674 44.19 23.0908 43.7935L21.1811 43.1993C21.0442 43.6394 20.9847 43.8222 20.9386 43.9307L22.7791 44.7133ZM23.0908 43.7935C24.9227 37.9053 30.0149 33.452 36.2535 32.5463L35.9662 30.5671C28.9537 31.585 23.2384 36.5866 21.1811 43.1993L23.0908 43.7935ZM35.1099 31.5567V33.5808H37.1099V31.5567H35.1099Z" fill="#D9D9D9" mask="url(#path-1-outside-1_12_3255)"/>
+              <path d="M39 9.75L37.2322 7.98223L39 6.21447L40.7678 7.98223L39 9.75ZM41.5 42.25C41.5 43.6307 40.3807 44.75 39 44.75C37.6193 44.75 36.5 43.6307 36.5 42.25L41.5 42.25ZM24.2322 20.9822L37.2322 7.98223L40.7678 11.5178L27.7678 24.5178L24.2322 20.9822ZM40.7678 7.98223L53.7678 20.9822L50.2322 24.5178L37.2322 11.5178L40.7678 7.98223ZM41.5 9.75L41.5 42.25L36.5 42.25L36.5 9.75L41.5 9.75Z" fill="#D9D9D9"/>
+              </svg>
+              <p class="text-secondary fw-bold fs-12 mb-1">فایل stl را اینجا بکشید و رها کنید</p>
+              <p class="text-secondary fw-bold fs-10 mb-4">حجم فایل باید کمتر از ۲۵ مگابایت باشد</p>
+              <a class="font-bold border-main rounded-10 cursor-pointer main-text py-2 px-4 bg-transparent position-relative">
+                <input type="file" class="position-absolute end-0 top-0 bottom-0 start-0 cursor-pointer opacity-none z-10">
+                انتخاب فایل</a>
+          </div>
+        </div>
+        <!--  -->
+        <div class="row mt-4">
+          <div class="col-7">
+            <div class="mb-3">
+              <p class="mb-0 text-muted fw-bold fs-14">تکنولوژی</p>
+              <select class="border-bottom pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+                <option>تکنولوژی</option>
+                <option>تکنولوژی</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <p class="mb-0 text-muted fw-bold fs-14">جنس</p>
+              <select class="border-bottom pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+                <option>PDA</option>
+                <option>PDA</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <p class="mb-0 text-muted fw-bold fs-14">مقیاس</p>
+              <input type="range" class="form-range">
+              <p class="fs-10 text-secondary mb-0">مقدار: ۲ به ۱</p>
+            </div>
+            <div class="mb-3">
+              <p class="mb-0 text-muted fw-bold fs-14">ضخامت لایه ها</p>
+              <select class="border-bottom pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+                <option>200 میکرون</option>
+                <option>200 میکرون</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <p class="mb-0 text-muted fw-bold fs-14">تعداد پرینت سه بعدی</p>
+              <input type="number" value="1" class="border-bottom text-end outline-none pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+            </div>
+            <p class="fw-bold fs-14 main-text mb-0">برای محاسبه با پشتیبانی (09186678777) تماس بگیرید.</p>
+          </div>
+          <div class="col-5">
+            <div class="d-flex gap-3 justify-content-around">
+               <div>
+                 <p class="fs-14 text-secondary fw-bold mb-2">رنگ</p>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-dark rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">مشکی</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-white rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">سفید</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-success2 rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">سبز</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-primary rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">آبی</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-danger rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">قرمز</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-yellow rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">زرد</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-gray rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">خاکستری</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-sky rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">شفاف</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-zeytoni rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">طلایی</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-orange2 rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">نارنجی</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-pink rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">صورتی</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border bg-brown rounded-3 flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">قهوه ای</p>
+                 </div>
+               </div>
+               <div>
+                 <p class="fs-14 text-secondary fw-bold mb-2">تراکم</p>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">100%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">90%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">80%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">70%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">60%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">50%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">40%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">30%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">20%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">15%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">10%</p>
+                 </div>
+                 <div class=" d-flex align-items-center gap-2 mb-1">
+                  <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                  <p class="fs-14 fw-bold mb-0">5%</p>
+                 </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer justify-content-between">
+        <p class="fw-bold fs-20 mb-0 text-secondary">تخمین هزینه: 0 تومان</p>
+        <input type="submit" value="ثبت در سبد سفارش" class="rounded-10 second-bg text-white fw-bold cursor-pointer py-2 px-4 border-0">
+      </div>
+    </div>
+  </div>
+</form>
+
+  <!-- upload metal Modal -->
+  <form class="modal fade" id="MetalUploadModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered max-w-876">
+      <div class="modal-content rounded-10">
+        <div class="modal-body p-4">
+          <div class="rounded-10 border-dotted p-4 bg-upload d-flex align-items-center justify-content-center">
+            <div class="text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78" fill="none">
+                <mask id="path-1-outside-1_12_3255" maskUnits="userSpaceOnUse" x="7.35986" y="29.5567" width="63" height="38" fill="black">
+                <rect fill="white" x="7.35986" y="29.5567" width="63" height="38"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M36.1099 33.5808C30.3869 34.5247 25.7367 38.655 24.0456 44.0905L24.0328 44.1318C23.9201 44.4942 23.8143 44.8343 23.6994 45.1047C23.577 45.3924 23.3921 45.734 23.0477 45.9875C22.7151 46.2324 22.3554 46.313 22.0468 46.3466C21.7686 46.377 21.4359 46.3769 21.0936 46.3769H21.0935L21.0501 46.3769H19.1099C14.2774 46.3769 10.3599 50.2944 10.3599 55.1269C10.3599 59.9594 14.2774 63.8769 19.1099 63.8769H38.6099H63.8599C65.5167 63.8769 66.8599 62.5337 66.8599 60.8769V49.3769C66.8599 47.72 65.5167 46.3769 63.8599 46.3769H56.1696L56.1262 46.3769C55.7838 46.3769 55.4511 46.377 55.1729 46.3466C54.8643 46.313 54.5046 46.2324 54.172 45.9875C53.8277 45.734 53.6427 45.3924 53.5204 45.1047C53.4054 44.8343 53.2997 44.4943 53.187 44.1321L53.1869 44.1319L53.1741 44.0905C51.483 38.655 46.8328 34.5247 41.1099 33.5808V31.5567C47.7354 32.5185 53.1392 37.2459 55.0838 43.4964C55.2139 43.9147 55.2902 44.1559 55.3609 44.322C55.3664 44.335 55.3715 44.3465 55.3762 44.3569L55.3898 44.3584C55.5461 44.3755 55.7671 44.3769 56.1696 44.3769H63.8599C66.6213 44.3769 68.8599 46.6155 68.8599 49.3769V60.8769C68.8599 63.6383 66.6213 65.8769 63.8599 65.8769H38.6099H19.1099C13.1728 65.8769 8.35986 61.0639 8.35986 55.1269C8.35986 49.1898 13.1728 44.3769 19.1099 44.3769H21.0501C21.4527 44.3769 21.6737 44.3755 21.8299 44.3584L21.8435 44.3569C21.8482 44.3465 21.8534 44.335 21.8589 44.322C21.9295 44.1559 22.0058 43.9147 22.1359 43.4964C24.0805 37.2459 29.4843 32.5185 36.1099 31.5567V33.5808Z"/>
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M36.1099 33.5808C30.3869 34.5247 25.7367 38.655 24.0456 44.0905L24.0328 44.1318C23.9201 44.4942 23.8143 44.8343 23.6994 45.1047C23.577 45.3924 23.3921 45.734 23.0477 45.9875C22.7151 46.2324 22.3554 46.313 22.0468 46.3466C21.7686 46.377 21.4359 46.3769 21.0936 46.3769H21.0935L21.0501 46.3769H19.1099C14.2774 46.3769 10.3599 50.2944 10.3599 55.1269C10.3599 59.9594 14.2774 63.8769 19.1099 63.8769H38.6099H63.8599C65.5167 63.8769 66.8599 62.5337 66.8599 60.8769V49.3769C66.8599 47.72 65.5167 46.3769 63.8599 46.3769H56.1696L56.1262 46.3769C55.7838 46.3769 55.4511 46.377 55.1729 46.3466C54.8643 46.313 54.5046 46.2324 54.172 45.9875C53.8277 45.734 53.6427 45.3924 53.5204 45.1047C53.4054 44.8343 53.2997 44.4943 53.187 44.1321L53.1869 44.1319L53.1741 44.0905C51.483 38.655 46.8328 34.5247 41.1099 33.5808V31.5567C47.7354 32.5185 53.1392 37.2459 55.0838 43.4964C55.2139 43.9147 55.2902 44.1559 55.3609 44.322C55.3664 44.335 55.3715 44.3465 55.3762 44.3569L55.3898 44.3584C55.5461 44.3755 55.7671 44.3769 56.1696 44.3769H63.8599C66.6213 44.3769 68.8599 46.6155 68.8599 49.3769V60.8769C68.8599 63.6383 66.6213 65.8769 63.8599 65.8769H38.6099H19.1099C13.1728 65.8769 8.35986 61.0639 8.35986 55.1269C8.35986 49.1898 13.1728 44.3769 19.1099 44.3769H21.0501C21.4527 44.3769 21.6737 44.3755 21.8299 44.3584L21.8435 44.3569C21.8482 44.3465 21.8534 44.335 21.8589 44.322C21.9295 44.1559 22.0058 43.9147 22.1359 43.4964C24.0805 37.2459 29.4843 32.5185 36.1099 31.5567V33.5808Z" fill="#D9D9D9"/>
+                <path d="M36.1099 33.5808L36.2726 34.5675L37.1099 34.4294V33.5808H36.1099ZM24.0456 44.0905L23.0908 43.7935L23.0908 43.7935L24.0456 44.0905ZM24.0328 44.1318L23.0779 43.8348L23.0779 43.8349L24.0328 44.1318ZM23.6994 45.1047L22.7791 44.7133L22.7791 44.7133L23.6994 45.1047ZM23.0477 45.9875L22.4548 45.1822V45.1822L23.0477 45.9875ZM22.0468 46.3466L22.1552 47.3408H22.1552L22.0468 46.3466ZM21.0936 46.3769L21.0937 45.3769H21.0936V46.3769ZM21.0935 46.3769L21.0934 47.3769H21.0935V46.3769ZM21.0501 46.3769L21.0502 45.3769H21.0501V46.3769ZM56.1696 46.3769V45.3769H56.1695L56.1696 46.3769ZM56.1262 46.3769L56.1261 45.3769H56.126L56.1262 46.3769ZM55.1729 46.3466L55.0645 47.3408H55.0645L55.1729 46.3466ZM54.172 45.9875L54.7649 45.1822L54.7649 45.1822L54.172 45.9875ZM53.5204 45.1047L54.4406 44.7133L54.4406 44.7133L53.5204 45.1047ZM53.187 44.1321L52.2302 44.4228L52.2321 44.4291L53.187 44.1321ZM53.1869 44.1319L54.1438 43.8412L54.1418 43.8349L53.1869 44.1319ZM53.1741 44.0905L54.129 43.7936L54.1289 43.7935L53.1741 44.0905ZM41.1099 33.5808H40.1099V34.4294L40.9471 34.5675L41.1099 33.5808ZM41.1099 31.5567L41.2535 30.5671L40.1099 30.4011V31.5567H41.1099ZM55.0838 43.4964L56.0386 43.1993V43.1993L55.0838 43.4964ZM55.3609 44.322L54.4406 44.7133L54.4406 44.7134L55.3609 44.322ZM55.3762 44.3569L54.4662 44.7716L54.7007 45.2861L55.2625 45.3504L55.3762 44.3569ZM55.3898 44.3584L55.2761 45.352L55.2813 45.3525L55.3898 44.3584ZM21.8299 44.3584L21.9384 45.3526L21.9436 45.352L21.8299 44.3584ZM21.8435 44.3569L21.9572 45.3504L22.5189 45.2861L22.7534 44.7717L21.8435 44.3569ZM21.8589 44.322L22.7791 44.7134L22.7791 44.7133L21.8589 44.322ZM22.1359 43.4964L23.0908 43.7935L22.1359 43.4964ZM36.1099 31.5567H37.1099V30.4011L35.9662 30.5671L36.1099 31.5567ZM35.9471 32.5942C29.8463 33.6003 24.8928 38.0013 23.0908 43.7935L25.0005 44.3876C26.5806 39.3087 30.9275 35.449 36.2726 34.5675L35.9471 32.5942ZM23.0908 43.7935L23.0779 43.8348L24.9877 44.4289L25.0005 44.3875L23.0908 43.7935ZM23.0779 43.8349C22.9604 44.2128 22.8702 44.4992 22.7791 44.7133L24.6196 45.496C24.7585 45.1694 24.8798 44.7756 24.9877 44.4288L23.0779 43.8349ZM22.7791 44.7133C22.6843 44.9362 22.5873 45.0847 22.4548 45.1822L23.6405 46.7928C24.1968 46.3833 24.4697 45.8487 24.6196 45.496L22.7791 44.7133ZM22.4548 45.1822C22.3226 45.2795 22.1615 45.3282 21.9384 45.3525L22.1552 47.3408C22.5493 47.2978 23.1075 47.1852 23.6405 46.7928L22.4548 45.1822ZM21.9384 45.3525C21.7256 45.3758 21.4525 45.3769 21.0937 45.3769L21.0934 47.3769C21.4194 47.3769 21.8117 47.3782 22.1552 47.3408L21.9384 45.3525ZM21.0936 45.3769H21.0935V47.3769H21.0936V45.3769ZM21.0936 45.3769L21.0502 45.3769L21.05 47.3769L21.0934 47.3769L21.0936 45.3769ZM21.0501 45.3769H19.1099V47.3769H21.0501V45.3769ZM19.1099 45.3769C13.7251 45.3769 9.35986 49.7421 9.35986 55.1269H11.3599C11.3599 50.8467 14.8297 47.3769 19.1099 47.3769V45.3769ZM9.35986 55.1269C9.35986 60.5117 13.7251 64.8769 19.1099 64.8769V62.8769C14.8297 62.8769 11.3599 59.4071 11.3599 55.1269H9.35986ZM19.1099 64.8769H38.6099V62.8769H19.1099V64.8769ZM38.6099 64.8769H63.8599V62.8769H38.6099V64.8769ZM63.8599 64.8769C66.069 64.8769 67.8599 63.086 67.8599 60.8769H65.8599C65.8599 61.9815 64.9644 62.8769 63.8599 62.8769V64.8769ZM67.8599 60.8769V49.3769H65.8599V60.8769H67.8599ZM67.8599 49.3769C67.8599 47.1677 66.069 45.3769 63.8599 45.3769V47.3769C64.9644 47.3769 65.8599 48.2723 65.8599 49.3769H67.8599ZM63.8599 45.3769H56.1696V47.3769H63.8599V45.3769ZM56.1695 45.3769L56.1261 45.3769L56.1263 47.3769L56.1697 47.3769L56.1695 45.3769ZM56.126 45.3769C55.7672 45.3769 55.4942 45.3758 55.2813 45.3525L55.0645 47.3408C55.408 47.3782 55.8004 47.3769 56.1264 47.3769L56.126 45.3769ZM55.2813 45.3525C55.0582 45.3282 54.8971 45.2795 54.7649 45.1822L53.5792 46.7928C54.1122 47.1852 54.6704 47.2978 55.0645 47.3408L55.2813 45.3525ZM54.7649 45.1822C54.6324 45.0847 54.5354 44.9362 54.4406 44.7133L52.6001 45.496C52.7501 45.8487 53.0229 46.3833 53.5792 46.7928L54.7649 45.1822ZM54.4406 44.7133C54.3496 44.4992 54.2594 44.2129 54.1419 43.8351L52.2321 44.4291C52.3399 44.7758 52.4613 45.1695 52.6001 45.496L54.4406 44.7133ZM54.1438 43.8414L54.1438 43.8412L52.2301 44.4225L52.2302 44.4228L54.1438 43.8414ZM54.1418 43.8349L54.129 43.7936L52.2192 44.3875L52.232 44.4288L54.1418 43.8349ZM54.1289 43.7935C52.3269 38.0013 47.3734 33.6003 41.2726 32.5942L40.9471 34.5675C46.2922 35.449 50.6391 39.3087 52.2192 44.3876L54.1289 43.7935ZM42.1099 33.5808V31.5567H40.1099V33.5808H42.1099ZM40.9662 32.5463C47.2048 33.452 52.297 37.9053 54.1289 43.7935L56.0386 43.1993C53.9813 36.5866 48.266 31.585 41.2535 30.5671L40.9662 32.5463ZM54.1289 43.7935C54.2523 44.19 54.3455 44.4897 54.4406 44.7133L56.2811 43.9307C56.235 43.8222 56.1755 43.6394 56.0386 43.1993L54.1289 43.7935ZM54.4406 44.7134C54.4493 44.7338 54.4579 44.7532 54.4662 44.7716L56.2861 43.9422C56.2851 43.9399 56.2834 43.9361 56.2811 43.9306L54.4406 44.7134ZM55.2625 45.3504L55.2761 45.352L55.5034 43.3649L55.4899 43.3634L55.2625 45.3504ZM55.2813 45.3525C55.5049 45.3769 55.7915 45.3769 56.1696 45.3769V43.3769C55.7426 43.3769 55.5872 43.374 55.4982 43.3643L55.2813 45.3525ZM56.1696 45.3769H63.8599V43.3769H56.1696V45.3769ZM63.8599 45.3769C66.069 45.3769 67.8599 47.1677 67.8599 49.3769H69.8599C69.8599 46.0632 67.1736 43.3769 63.8599 43.3769V45.3769ZM67.8599 49.3769V60.8769H69.8599V49.3769H67.8599ZM67.8599 60.8769C67.8599 63.086 66.069 64.8769 63.8599 64.8769V66.8769C67.1736 66.8769 69.8599 64.1906 69.8599 60.8769H67.8599ZM63.8599 64.8769H38.6099V66.8769H63.8599V64.8769ZM38.6099 64.8769H19.1099V66.8769H38.6099V64.8769ZM19.1099 64.8769C13.7251 64.8769 9.35986 60.5117 9.35986 55.1269H7.35986C7.35986 61.6162 12.6205 66.8769 19.1099 66.8769V64.8769ZM9.35986 55.1269C9.35986 49.7421 13.7251 45.3769 19.1099 45.3769V43.3769C12.6205 43.3769 7.35986 48.6375 7.35986 55.1269H9.35986ZM19.1099 45.3769H21.0501V43.3769H19.1099V45.3769ZM21.0501 45.3769C21.4282 45.3769 21.7148 45.3769 21.9384 45.3525L21.7215 43.3643C21.6325 43.374 21.4771 43.3769 21.0501 43.3769V45.3769ZM21.9436 45.352L21.9572 45.3504L21.7299 43.3634L21.7163 43.3649L21.9436 45.352ZM22.7534 44.7717C22.7618 44.7533 22.7704 44.7339 22.7791 44.7134L20.9386 43.9307C20.9363 43.9361 20.9347 43.9398 20.9336 43.9421L22.7534 44.7717ZM22.7791 44.7133C22.8742 44.4897 22.9674 44.19 23.0908 43.7935L21.1811 43.1993C21.0442 43.6394 20.9847 43.8222 20.9386 43.9307L22.7791 44.7133ZM23.0908 43.7935C24.9227 37.9053 30.0149 33.452 36.2535 32.5463L35.9662 30.5671C28.9537 31.585 23.2384 36.5866 21.1811 43.1993L23.0908 43.7935ZM35.1099 31.5567V33.5808H37.1099V31.5567H35.1099Z" fill="#D9D9D9" mask="url(#path-1-outside-1_12_3255)"/>
+                <path d="M39 9.75L37.2322 7.98223L39 6.21447L40.7678 7.98223L39 9.75ZM41.5 42.25C41.5 43.6307 40.3807 44.75 39 44.75C37.6193 44.75 36.5 43.6307 36.5 42.25L41.5 42.25ZM24.2322 20.9822L37.2322 7.98223L40.7678 11.5178L27.7678 24.5178L24.2322 20.9822ZM40.7678 7.98223L53.7678 20.9822L50.2322 24.5178L37.2322 11.5178L40.7678 7.98223ZM41.5 9.75L41.5 42.25L36.5 42.25L36.5 9.75L41.5 9.75Z" fill="#D9D9D9"/>
+                </svg>
+                <p class="text-secondary fw-bold fs-12 mb-1">فایل stl را اینجا بکشید و رها کنید</p>
+                <p class="text-secondary fw-bold fs-10 mb-4">حجم فایل باید کمتر از ۲۵ مگابایت باشد</p>
+                <a class="font-bold border-main rounded-10 cursor-pointer main-text py-2 px-4 bg-transparent position-relative">
+                  <input type="file" class="position-absolute end-0 top-0 bottom-0 start-0 cursor-pointer opacity-none z-10">
+                  انتخاب فایل</a>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row mt-4">
+            <div class="col-7">
+              <div class="mb-3">
+                <p class="mb-0 text-muted fw-bold fs-14">تکنولوژی</p>
+                <select class="border-bottom pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+                  <option>تکنولوژی</option>
+                  <option>تکنولوژی</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <p class="mb-0 text-muted fw-bold fs-14">جنس</p>
+                <select class="border-bottom pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+                  <option>PDA</option>
+                  <option>PDA</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <p class="mb-0 text-muted fw-bold fs-14">مقیاس</p>
+                <input type="range" class="form-range">
+                <p class="fs-10 text-secondary mb-0">مقدار: ۲ به ۱</p>
+              </div>
+              <div class="mb-3">
+                <p class="mb-0 text-muted fw-bold fs-14">ضخامت لایه ها</p>
+                <select class="border-bottom pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+                  <option>200 میکرون</option>
+                  <option>200 میکرون</option>
+                </select>
+              </div>
+              <div class="mb-4">
+                <p class="mb-0 text-muted fw-bold fs-14">تعداد پرینت سه بعدی</p>
+                <input type="number" value="1" class="border-bottom text-end outline-none pt-2 pb-1 border-0 w-100 bg-transparent fw-bold">
+              </div>
+              <p class="fw-bold fs-14 main-text mb-0">برای محاسبه با پشتیبانی (09186678777) تماس بگیرید.</p>
+            </div>
+            <div class="col-5">
+              <div class="d-flex gap-3 justify-content-around">
+                 <div>
+                   <p class="fs-14 text-secondary fw-bold mb-2">رنگ</p>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-dark rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">مشکی</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-white rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">سفید</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-success2 rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">سبز</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-primary rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">آبی</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-danger rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">قرمز</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-yellow rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">زرد</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-gray rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">خاکستری</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-sky rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">شفاف</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-zeytoni rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">طلایی</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-orange2 rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">نارنجی</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-pink rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">صورتی</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border bg-brown rounded-3 flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">قهوه ای</p>
+                   </div>
+                 </div>
+                 <div>
+                   <p class="fs-14 text-secondary fw-bold mb-2">تراکم</p>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">100%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">90%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">80%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">70%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">60%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">50%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">40%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">30%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">20%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">15%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">10%</p>
+                   </div>
+                   <div class=" d-flex align-items-center gap-2 mb-1">
+                    <div class="w-23 h-23 border border-dark rounded-circle flex-shrink-0"></div>
+                    <p class="fs-14 fw-bold mb-0">5%</p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer justify-content-between">
+          <p class="fw-bold fs-20 mb-0 text-secondary">تخمین هزینه: 0 تومان</p>
+          <input type="submit" value="ثبت در سبد سفارش" class="rounded-10 second-bg text-white fw-bold cursor-pointer py-2 px-4 border-0">
+        </div>
+      </div>
+    </div>
+  </form>
+
+
   <!-- header -->
 
   <header class="py-4 border-bottom">
@@ -242,7 +591,7 @@
         سایر تکنولوژی ها و مواد از قبیل ABS ,Nylon, ASA, TPUو ... با پشتیبانی (091856566757) تماس بگیرید.</div>
       <!--  -->
       <div class=" d-flex align-items-center justify-content-between gap-3 mt-3" data-aos="flip-right">
-        <div
+        <div data-bs-toggle="modal" data-bs-target="#newMetalModal"
           class="p-3 cursor-pointer rounded-4 main-bg text-white flex-grow-1 fw-bold d-flex align-items-center justify-content-between">
           <p class="mb-0 fw-bold fs-14">بارگذاری قطعات جدید</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -250,7 +599,7 @@
             <path d="M18 12L6 12" stroke="white" stroke-width="2" stroke-linecap="round" />
           </svg>
         </div>
-        <div
+        <div data-bs-toggle="modal" data-bs-target="#MetalUploadModal"
           class="p-3 cursor-pointer rounded-4 second-bg text-white flex-grow-1 fw-bold d-flex align-items-center justify-content-between">
           <p class="mb-0 fw-bold fs-14">بارگذاری قطعات آماده</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

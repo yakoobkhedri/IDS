@@ -123,6 +123,9 @@ body.pannel {
 .bg-brown2{
     background-color: #67442B;
 }
+.bg-upload{
+    background-color: #fcfcfc;
+}
 .border-main {
     border: 2px solid #64CCC5;
 }
@@ -232,6 +235,10 @@ a {
 }
 .max-w-770{
     max-width: 770px;
+    width: 100%;
+}
+.max-w-876{
+    max-width: 876px;
     width: 100%;
 }
 .h-100vh {
