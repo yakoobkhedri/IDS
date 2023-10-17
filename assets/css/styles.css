@@ -518,6 +518,9 @@ a {
     font-size: 20px;
 }
 
+.fs-24 {
+    font-size: 24px;
+}
 .fs-30 {
     font-size: 30px;
 }
@@ -864,13 +867,23 @@ header a:hover,header a.active,footer ul a:hover,.bannerLinks a:hover{
     background-position: center;
     background-repeat: no-repeat;
 }
-/* login page */
-/* .bg-login{
-    background-image: url(../img/loginbg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
+/* single product page */
+.gallery img {
+    width: 532px;
+    height: 471px;
+}
+.gallery .swiper-wrapper {
+    width: 532px;
+}
+.smallImgs .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.smallImgs .swiper-slide-thumb-active {
+    opacity: 1;
+}
 /* footer */
 footer {
     background-image: url('../img/footer.png');
