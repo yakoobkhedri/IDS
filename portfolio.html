@@ -14,14 +14,59 @@
 
 <body>
 
+  <!-- mobile menu -->
+  <div class="position-fixed d-md-none bottom-0 end-0 start-0 py-5 z-10 h-97">
+    <a
+      class="main-bg cursor-pointer z-20 left-11 w-56 h-56 d-block rounded-circle d-flex align-items-center justify-content-center position-absolute end-0 top-0 mx-auto">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M5 12.7595C5 11.4018 5 10.7229 5.27446 10.1262C5.54892 9.52943 6.06437 9.08763 7.09525 8.20401L8.09525 7.34687C9.95857 5.74974 10.8902 4.95117 12 4.95117C13.1098 4.95117 14.0414 5.74974 15.9047 7.34687L16.9047 8.20401C17.9356 9.08763 18.4511 9.52943 18.7255 10.1262C19 10.7229 19 11.4018 19 12.7595V16.9999C19 18.8856 19 19.8284 18.4142 20.4142C17.8284 20.9999 16.8856 20.9999 15 20.9999H9C7.11438 20.9999 6.17157 20.9999 5.58579 20.4142C5 19.8284 5 18.8856 5 16.9999V12.7595Z"
+          stroke="white" stroke-width="2" />
+        <path d="M14.5 21V16C14.5 15.4477 14.0523 15 13.5 15H10.5C9.94772 15 9.5 15.4477 9.5 16V21" stroke="white"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </a>
+    <img alt="mobileMenu" src="assets/img/mobilemenu.png"
+      class="position-absolute z-10 h-97 end-0 start-0 bottom-0 w-100">
+    <div class="container position-relative z-10">
+      <div class="d-flex align-items-center justify-content-between">
+        <a class="d-block me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471"
+              stroke="white" stroke-width="2" stroke-linecap="round" />
+            <circle cx="12" cy="8" r="4" stroke="white" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </a>
+        <a class="d-block ms-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M4 4H5.62563C6.193 4 6.47669 4 6.70214 4.12433C6.79511 4.17561 6.87933 4.24136 6.95162 4.31912C7.12692 4.50769 7.19573 4.7829 7.33333 5.33333L7.51493 6.05972C7.616 6.46402 7.66654 6.66617 7.74455 6.83576C8.01534 7.42449 8.5546 7.84553 9.19144 7.96546C9.37488 8 9.58326 8 10 8V8"
+              stroke="white" stroke-width="2" stroke-linecap="round" />
+            <path
+              d="M18 17H7.55091C7.40471 17 7.33162 17 7.27616 16.9938C6.68857 16.928 6.28605 16.3695 6.40945 15.7913C6.42109 15.7367 6.44421 15.6674 6.49044 15.5287V15.5287C6.54177 15.3747 6.56743 15.2977 6.59579 15.2298C6.88607 14.5342 7.54277 14.0608 8.29448 14.0054C8.3679 14 8.44906 14 8.61137 14H14"
+              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M14.5279 14H10.9743C9.75838 14 9.15042 14 8.68147 13.7246C8.48343 13.6083 8.30689 13.4588 8.15961 13.2825C7.81087 12.8652 7.71092 12.2655 7.51103 11.0662C7.30849 9.85093 7.20722 9.2433 7.44763 8.79324C7.54799 8.60536 7.68722 8.44101 7.85604 8.31113C8.26045 8 8.87646 8 10.1085 8H16.7639C18.2143 8 18.9395 8 19.2326 8.47427C19.5257 8.94854 19.2014 9.59717 18.5528 10.8944L18.1056 11.7889C17.5677 12.8647 17.2987 13.4026 16.8154 13.7013C16.3321 14 15.7307 14 14.5279 14Z"
+              stroke="white" stroke-width="2" stroke-linecap="round" />
+            <circle cx="17" cy="20" r="1" fill="white" />
+            <circle cx="9" cy="20" r="1" fill="white" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- header -->
 
   <header class="py-4 border-bottom">
     <nav class="container">
       <div class="d-flex align-items-center justify-content-between">
         <!-- ham icon -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-list-nested cursor-pointer d-lg-none flex-shrink-0" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+          class="bi bi-list d-lg-none cursor-pointer flex-shrink-0" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
         <!-- logo && menu -->
         <div class="d-flex align-items-center gap-4">
@@ -62,7 +107,7 @@
           </div>
         </div>
         <!-- login && contact -->
-        <div class="d-flex align-items-center gap-5">
+        <div class="d-lg-flex d-none align-items-center gap-5">
           <!-- login -->
           <div class="d-lg-flex d-none align-items-stretch w-156 h-27 bg-gray rounded-pill">
             <a class="text-white second-bg rounded-pill flex-grow-1 text-center">ورود</a>
@@ -116,8 +161,8 @@
 
     <!-- banner -->
     <section class="mt-5">
-      <div class="container portfolio-banner rounded-4 overflow-hidden" data-aos="fade-down">
-        <div class="d-flex align-items-center justify-content-center gap-2">
+      <div class="container rounded-4 overflow-hidden" data-aos="fade-down">
+        <div class="d-flex portfolio-banner rounded-4 align-items-center justify-content-center gap-2">
           <div>
             <img alt="portfolio" src="assets/img/Group 8773.png" class="img-fluid">
             <div class="position-relative text-start mt-4 ms-5">
@@ -317,24 +362,24 @@
       <!--  -->
       <div class="container">
         <div class="row g-4">
-          <div class="col-lg-4">
+          <div class="col-lg-4 d-flex flex-column">
             <a class="d-block mb-4" data-aos="flip-right"><img alt="portfolio" src="assets/img/p1.png" class="img-fluid rounded-4 w-100"></a>
             <a class="d-block mb-4" data-aos="flip-down"><img alt="portfolio" src="assets/img/p2.png" class="img-fluid rounded-4 w-100"></a>
             <div class="rounded-4 text-white fw-bold fs-20 second-bg py-3 px-5 text-center mb-4">پرینت قطعات صنعتی مناسب برای پروتوتایپ</div>
-            <a class="d-block" data-aos="flip-left"><img alt="portfolio" src="assets/img/p-3.png" class="img-fluid rounded-4 w-100"></a>
+            <a class="d-block flex-grow-1" data-aos="flip-left"><img alt="portfolio" src="assets/img/p-3.png" class="img-fluid h-100 rounded-4 w-100"></a>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 d-flex flex-column">
             <a class="d-block mb-4" data-aos="flip-up"><img alt="portfolio" src="assets/img/p-4.png" class="img-fluid rounded-4 w-100"></a>
             <div class="rounded-4 text-white fw-bold fs-20 main-bg py-3 px-5 text-center mb-4">پرینت سه بعدی قطعات با بهترین کیفیت</div>
             <a class="d-block mb-4" data-aos="flip-left"><img alt="portfolio" src="assets/img/p-5.png" class="img-fluid rounded-4 w-100"></a>
             <a class="d-block mb-4" data-aos="flip-right"><img alt="portfolio" src="assets/img/p-6.png" class="img-fluid rounded-4 w-100"></a>
-            <a class="d-block" data-aos="flip-up"><img alt="portfolio" src="assets/img/p-7.png" class="img-fluid rounded-4 w-100"></a>
+            <a class="d-block flex-grow-1" data-aos="flip-up"><img alt="portfolio" src="assets/img/p-7.png" class="img-fluid rounded-4 h-100 w-100"></a>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 d-flex flex-column">
             <a class="d-block mb-4" data-aos="flip-down"><img alt="portfolio" src="assets/img/p-8.png" class="img-fluid rounded-4 w-100"></a>
             <a class="d-block mb-4" data-aos="flip-up"><img alt="portfolio" src="assets/img/p-9.png" class="img-fluid rounded-4 w-100"></a>
-            <a class="d-block mb-4" data-aos="flip-left"><img alt="portfolio" src="assets/img/p-10.png" class="img-fluid rounded-4 w-100"></a>
-            <div class="rounded-4 text-white fw-bold fs-20 main-bg py-3 px-5 text-center mb-4">قیمت گذاری کاملا هوشمند و منصفانه</div>
+            <a class="d-block mb-4 flex-grow-1" data-aos="flip-left"><img alt="portfolio" src="assets/img/p-10.png" class="img-fluid h-100 rounded-4 w-100"></a>
+            <div class="rounded-4 text-white fw-bold fs-20 main-bg py-3 px-5 text-center">قیمت گذاری کاملا هوشمند و منصفانه</div>
           </div>
         </div>
         <a class="d-flex mx-auto w-193 align-items-center justify-content-center py-2 px-3 fw-bold mt-4 gap-2 border rounded-4 second-hover second-bg text-white">
@@ -382,49 +427,67 @@
 
   <!-- footer -->
 
-  <footer class="pt-5 pb-4 mt-5 position-relative">
-    <a data-aos-duration="2000" data-aos="fade-down" href="#" class="w-70 h-70 d-flex align-items-center justify-content-center second-bg rounded-circle position-absolute end-0 start-0 mx-auto top-8 mb-3">
+  <footer class="pt-5 mt-5 position-relative">
+    <a data-aos-duration="2000" data-aos="fade-down" href="#"
+      class="w-70 h-70 d-flex align-items-center justify-content-center second-bg rounded-circle position-absolute end-0 start-0 mx-auto top-8 mb-3">
       <svg xmlns="http://www.w3.org/2000/svg" width="29" height="18" viewBox="0 0 29 18" fill="none">
-        <path d="M27.2629 15.6467L14.5215 2.96727L1.76288 15.6296" stroke="white" stroke-width="4"/>
-        </svg>
+        <path d="M27.2629 15.6467L14.5215 2.96727L1.76288 15.6296" stroke="white" stroke-width="4" />
+      </svg>
     </a>
-      <div class="container mt-5 mb-2">
-        <div class="row g-4 g-lg-0">
-          <div class="col-lg-5">
-            <ul class="d-flex align-items-center gap-sm-5 gap-3 list-unstyled p-0 mb-0">
-              <li><a class="text-white">فروشگاه</a></li>
-              <li><a class="text-white">ثبت سفارش</a></li>
-              <li><a class="text-white">نمونه کار</a></li>
-              <li><a class="text-white">وبلاگ</a></li>
-            </ul>
-            <p class="font-bold fs-30 main-text mt-5">آی دی اس مدل</p>
-            <p class="text-white mt-3 text-justify">
-              در سامانه هوشمند خدمات پرینت سه بعدی، قیمت گذاری تماما به صورت آنلاین انجام می شود . در این روش قیمت گذاری حجم و جنس ماده اولیه مصرفی، دقت دلخواه و جزییات قطعه مورد نظر بررسی می شود.
-            </p>
-            <p class="text-white fs-14 mt-5 mb-0">تهران، تهران غرب، بلوار ، خیابان اصلی، خیابان فرعی، مجتمع سعادت</p>
+    <div class="container mt-5 mb-2">
+      <div class="row g-4 g-lg-0">
+        <div class="col-lg-5">
+          <ul class="d-flex flex-column flex-md-row align-items-md-center gap-5 list-unstyled p-0 mb-0">
+            <li><a class="text-white">فروشگاه</a></li>
+            <li><a class="text-white">ثبت سفارش</a></li>
+            <li><a class="text-white">نمونه کار</a></li>
+            <li><a class="text-white">وبلاگ</a></li>
+          </ul>
+          <p class="font-bold fs-30 main-text mt-5">آی دی اس مدل</p>
+          <p class="text-white mt-3 text-justify">
+            در سامانه هوشمند خدمات پرینت سه بعدی، قیمت گذاری تماما به صورت آنلاین انجام می شود . در این روش قیمت گذاری
+            حجم و جنس ماده اولیه مصرفی، دقت دلخواه و جزییات قطعه مورد نظر بررسی می شود.
+          </p>
+          <p class="text-white fs-14 mt-5 mb-0 d-flex align-items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none">
+              <path
+                d="M17.9346 8.3865C17.9346 10.0583 17.5042 11.7084 16.6758 13.2132L13.7052 18.612C12.2517 21.2524 11.5249 22.5726 10.4933 22.9262C9.83353 23.1526 9.10111 23.1526 8.44136 22.9262C7.40976 22.5726 6.68298 21.2524 5.22943 18.612L2.25881 13.212C1.43065 11.7076 1.0003 10.0579 1 8.3865C1 4.30674 4.82723 1 9.46732 1C14.1074 1 17.9346 4.30674 17.9346 8.3865Z"
+                stroke="white" stroke-width="2" />
+              <path
+                d="M12.2894 8.44547C12.2894 9.10364 11.992 9.73484 11.4627 10.2002C10.9334 10.6656 10.2155 10.9271 9.46697 10.9271C8.71841 10.9271 8.00052 10.6656 7.47121 10.2002C6.9419 9.73484 6.64453 9.10364 6.64453 8.44547C6.64453 7.78731 6.9419 7.1561 7.47121 6.69071C8.00052 6.22532 8.71841 5.96387 9.46697 5.96387C10.2155 5.96387 10.9334 6.22532 11.4627 6.69071C11.992 7.1561 12.2894 7.78731 12.2894 8.44547Z"
+                fill="white" />
+            </svg>
+            تهران، تهران غرب، بلوار ، خیابان اصلی، خیابان فرعی، مجتمع سعادت
+          </p>
+        </div>
+        <div class="col-lg-4 me-lg-auto">
+          <div class="d-flex align-items-center justify-content-between justify-content-lg-end gap-5">
+            <a class="py-1 px-3 social-bg rounded-pill text-white fs-12 flex-shrink-0">ids model@gmail.com</a>
+            <a
+              class="py-1 px-3 d-flex align-items-center justify-content-center gap-2 social-bg rounded-pill text-white fs-12">
+              <p class="mb-0">09125556766</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path
+                  d="M13.7071 11.1918L16.3552 13.84C16.7113 14.1961 16.7113 14.7734 16.3552 15.1295C14.43 17.0547 11.3821 17.2713 9.20399 15.6377L7.62857 14.4562C5.88504 13.1485 4.33622 11.5997 3.02857 9.85617L1.84701 8.28075C0.213407 6.10262 0.430014 3.05473 2.35523 1.12951C2.71133 0.773414 3.28867 0.773413 3.64477 1.12951L6.29289 3.77763C6.68342 4.16816 6.68342 4.80132 6.29289 5.19185L5.27175 6.213C5.10946 6.37528 5.06923 6.6232 5.17187 6.82847C6.35853 9.2018 8.28294 11.1262 10.6563 12.3129C10.8615 12.4155 11.1095 12.3753 11.2717 12.213L12.2929 11.1918C12.6834 10.8013 13.3166 10.8013 13.7071 11.1918Z"
+                  stroke="white" />
+              </svg>
+            </a>
           </div>
-          <div class="col-lg-4 me-lg-auto">
-            <div class="d-flex align-items-center justify-content-lg-end gap-5">
-             <a class="py-1 px-3 social-bg rounded-pill text-white fs-12">ids model@gmail.com</a>
-             <a class="py-1 px-3 d-flex align-items-center justify-content-center gap-2 social-bg rounded-pill text-white fs-12">
-                 <p class="mb-0">09125556766</p>
-                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                  <path d="M13.7071 11.1918L16.3552 13.84C16.7113 14.1961 16.7113 14.7734 16.3552 15.1295C14.43 17.0547 11.3821 17.2713 9.20399 15.6377L7.62857 14.4562C5.88504 13.1485 4.33622 11.5997 3.02857 9.85617L1.84701 8.28075C0.213407 6.10262 0.430014 3.05473 2.35523 1.12951C2.71133 0.773414 3.28867 0.773413 3.64477 1.12951L6.29289 3.77763C6.68342 4.16816 6.68342 4.80132 6.29289 5.19185L5.27175 6.213C5.10946 6.37528 5.06923 6.6232 5.17187 6.82847C6.35853 9.2018 8.28294 11.1262 10.6563 12.3129C10.8615 12.4155 11.1095 12.3753 11.2717 12.213L12.2929 11.1918C12.6834 10.8013 13.3166 10.8013 13.7071 11.1918Z" stroke="white"/>
-                  </svg>
-             </a>
-            </div>
-            <p class="fs-14 text-white mt-4 text-end text-lg-start">ساعت کاری از 9 تا 17 شنبه تا چهارشنبه و پنجشنبه 9 تا 13.</p>
-            <div class="d-flex align-items-center justify-content-lg-end mt-5 gap-5">
-             <a class="d-block">
-               <img alt="namad" src="assets/img/download (1).png" class="img-fluid rounded-4">
-             </a>
-             <a class="d-block">
-               <img alt="namad" src="assets/img/download.png" class="img-fluid rounded-4">
-             </a>
-            </div>
+          <p class="fs-14 text-white mt-4 text-end text-lg-start">ساعت کاری از 9 تا 17 شنبه تا چهارشنبه و پنجشنبه 9 تا
+            13.</p>
+          <div class="d-flex align-items-center justify-content-between justify-content-lg-end mt-5 gap-5">
+            <a class="d-block">
+              <img alt="namad" src="assets/img/download (1).png" class="img-fluid rounded-4">
+            </a>
+            <a class="d-block">
+              <img alt="namad" src="assets/img/download.png" class="img-fluid rounded-4">
+            </a>
           </div>
+          <p class="text-white fw-bold text-center text-lg-start fs-10 mb-0 mt-4">تمامی حقوق این سایت برای مجموعه پرینت
+            سه بعدی محفوظ می باشد.</p>
         </div>
       </div>
+    </div>
   </footer>
 
   <script src="assets/js/jquery-3.7.1.min.js"></script>

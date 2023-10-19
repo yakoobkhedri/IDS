@@ -4,7 +4,7 @@ AOS.init();
 // swiper
 var models = new Swiper(".models", {
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 1.1,
     spaceBetween: 20,
     breakpoints: {
         576: {
