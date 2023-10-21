@@ -484,7 +484,9 @@ a {
 .w-178 {
     width: 178px;
 }
-
+.w-187 {
+    width: 187px;
+}
 .h-97 {
     height: 97px;
 }
@@ -1044,7 +1046,7 @@ footer {
         bottom: 0;
         background-color: white;
         width: 300px;
-        z-index: 9;
+        z-index: 12;
         padding: 27px !important;
     }
 
@@ -1060,7 +1062,7 @@ footer {
         left: 0;
         transition: all .4s;
         right: 992px;
-        z-index: 9;
+        z-index: 11;
         opacity: 0.6;
     }
 }
