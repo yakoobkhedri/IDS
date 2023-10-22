@@ -13,15 +13,33 @@
 </head>
 
 <body class="h-100vh">
-
+   <!-- shape -->
+   <svg xmlns="http://www.w3.org/2000/svg" width="19" class="position-fixed start-0 top-0 bottom-0 d-lg-none" viewBox="0 0 19 932" fill="none">
+    <path d="M0 -5H19V937H0V-5Z" fill="#64CCC5"/>
+    </svg>
+    <!-- shape -->
+    <img alt="login" src="assets/img/Rectangle 4355.png" class="img-fluid w-100 position-absolute top-0 end-0 start-0 d-lg-none">
+    <!--  -->
   <section class="row align-items-center h-100">
-   <div class="col-lg-8 h-100 d-flex align-items-center justify-content-center">
-     <form class="max-w-770">
+   <div class="col-lg-8 h-100 d-flex align-items-center justify-content-center position-relative">
+    <!-- menu -->
+    <div class="pe-3 mt-5 position-absolute d-lg-none left-30 top-204">
+      <svg xmlns="http://www.w3.org/2000/svg" width="114" height="87" viewBox="0 0 114 87" fill="none">
+        <path d="M8.34917e-09 0C8.34917e-09 0 0.535211 4.55038 6.42253 9.55567C12.3099 14.561 19.2676 14.561 19.2676 14.561H94C105.046 14.561 114 23.5153 114 34.561V51.8943C114 62.94 105.046 71.8943 94 71.8943H19.2676C19.2676 71.8943 14.4507 71.8943 9.6338 74.6243C1.60529 79.1746 -0.000133686 88 8.34917e-09 86C0.000133703 84 8.34917e-09 0 8.34917e-09 0Z" fill="#64CCC5"/>
+        </svg>
+      <ul class="list-unstyled pe-4 mb-0 mt-54">
+        <li><a class="d-block text-white h5 fw-bold mb-4">ورود</a></li>
+        <li><a class="d-block main-text h5 fw-bold mb-0">ثبت نام</a></li>
+      </ul>
+    </div>
+    <!--  -->
+     <form class="max-w-770 px-5">
+      <img alt="login" src="assets/img/Computer login-bro 1.png" class="img-fluid mx-auto d-block d-lg-none w-167 mb-3">
       <a class="d-flex align-items-center fs-20 fw-bold text-dark justify-content-center w-70 mx-auto h-46 rounded-3 bg-gray shadow-sm border border-2 border-dark">
         logo
       </a>
-      <h2 class="text-center font-bold display-6 main-text mt-2">ورود</h2>
-      <div class="d-flex align-items-center gap-2 border-bottom mt-5">
+      <h2 class="text-center font-bold display-6 main-text mt-2 d-none d-lg-block">ورود</h2>
+      <div class="d-flex align-items-center gap-2 border-bottom mt-5 pt-5 pt-lg-0">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
           <path d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471" stroke="#747474" stroke-width="2" stroke-linecap="round"/>
           <circle cx="12" cy="8" r="4" stroke="#747474" stroke-width="2" stroke-linecap="round"/>
@@ -37,16 +55,16 @@
           <input placeholder="رمز عبور" class="fs-20 bg-transparent outline-none border-0 py-3 w-100">
       </div>
       <input type="submit" class="rounded-pill py-3 px-4 w-100 text-white fw-bold cursor-pointer social-bg border-0 mt-5" value="ورود">
-      <div class="d-flex align-items-center justify-content-between mt-3">
-       <label class="cursor-pointer text-secondary fs-20 fw-bold">
+      <div class="d-flex flex-wrap gap-3 align-items-center justify-content-between mt-3">
+       <label class="cursor-pointer text-secondary fw-bold">
         <input type="checkbox" class="form-check-input bg-gray">
         مرا به خاطر بسپار
        </label>
-       <a class="text-secondary fw-bold fs-20 cursor-pointer">فراموشی رمز عبور؟</a>
+       <a class="text-secondary fw-bold cursor-pointer">فراموشی رمز عبور؟</a>
       </div>
      </form>
    </div>
-   <div class="col-lg-4 bg-login h-100 position-relative">
+   <div class="col-lg-4 bg-login d-lg-block d-none h-100 position-relative">
     <img src="assets/img/loginbg.png" class="position-absolute end-0 start-0 bottom-0 top-0 w-100 h-100">
      <div class="d-flex flex-column h-100 justify-content-center z-10 position-relative">
       <svg class="position-absolute top-156 h-44 right-3" xmlns="http://www.w3.org/2000/svg" width="158" height="61" viewBox="0 0 158 61" fill="none">

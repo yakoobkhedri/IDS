@@ -213,7 +213,9 @@ a {
 .cursor-pointer {
     cursor: pointer;
 }
-
+.mt-54 {
+    margin-top: -54px;
+}
 .mt-93 {
     margin-top: -93px;
 }
@@ -221,7 +223,9 @@ a {
 .mt-106 {
     margin-top: 106px;
 }
-
+.mt-105 {
+    margin-top: -105px;
+}
 .top-5 {
     top: -5px;
 }
@@ -253,11 +257,15 @@ a {
 .top-171 {
     top: 171px;
 }
-
+.top-204{
+    top:204px
+}
 .left-11 {
     left: 11px;
 }
-
+.left-30 {
+    left: 30px
+}
 .left-31 {
     left: -31px
 }
@@ -1064,6 +1072,9 @@ footer {
         right: 992px;
         z-index: 11;
         opacity: 0.6;
+    }
+    .regSection{
+        height: auto!important;
     }
 }
 
