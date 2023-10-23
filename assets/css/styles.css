@@ -495,6 +495,12 @@ a {
 .w-187 {
     width: 187px;
 }
+.w-210 {
+    width: 210px;
+}
+.w-222 {
+    width: 222px;
+}
 .h-97 {
     height: 97px;
 }
@@ -823,7 +829,7 @@ input[type='number'],
 }
 
 .accordion-header,
-.accordion-item .accordion-button {
+.accordion-item .accordion-button,.productFeatures {
     border-radius: 10px !important;
     background: rgb(217, 217, 217);
     background: linear-gradient(90deg, rgb(243, 242, 242) 0%, rgb(159, 211, 207) 66%, #d1f0ee 100%);
@@ -1087,10 +1093,9 @@ footer {
         width: 52px;
     }
 
-    .w-363 {
+    .w-363,.submitComment {
         width: 100% !important;
     }
-
     footer {
         padding-bottom: 110px !important;
     }
