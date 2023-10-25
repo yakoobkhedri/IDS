@@ -46,13 +46,12 @@ body.pannel {
 
 .main-gradient {
     background: rgb(100, 204, 197);
-    background: linear-gradient(90deg, rgb(100, 204, 197) 0%, rgb(100, 204, 197) 22%, rgb(251, 251, 251) 100%);
+    background: linear-gradient(90deg, rgba(100, 204, 197, 0.08) 0%, rgb(100, 204, 197) 22%, rgba(251, 251, 251, 0.44) 100%)
 }
 
 .main-gradient:hover {
     background: rgb(226, 248, 246);
-    background: linear-gradient(90deg, rgba(226, 248, 246, 1) 0%, rgba(100, 204, 197, 1) 22%, rgba(100, 204, 197, 1) 100%);
-    color: #053B50;
+    background: linear-gradient(90deg, rgba(226, 248, 246, 0.04) 0%, rgba(100, 204, 197, 0.63) 22%, rgb(100, 204, 197) 100%)
 }
 
 .shadow-hover:hover {
