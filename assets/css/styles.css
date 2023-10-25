@@ -155,7 +155,9 @@ body.pannel {
 .border-b-info {
     border-bottom: 6px solid #64ccc5;
 }
-
+.border-l-info {
+    border-left: 6px solid #64ccc5;
+}
 .transition,
 svg.path,
 circle {
