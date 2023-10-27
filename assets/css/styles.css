@@ -1012,18 +1012,25 @@ header ul li g {
     opacity: 1;
 }
 /* models page */
-.model-card:hover .colors{
-    display: none!important;
-}
+.model-card .colors{
+    max-height: 50px;
+    overflow: hidden;
+    padding: 20px 0;
+    transition: all .4s;
+ }
 .model-card .addToCartBtn{
     max-height: 0;
     overflow: hidden;
     transition: all .4s;
  }
 .model-card:hover .addToCartBtn{
-   max-height: 59px;
+   max-height: 50px;
    padding: 20px 0;
 }
+.model-card:hover .colors{
+    max-height: 0;
+    padding: 0 0;
+ }
 /* footer */
 footer {
     background-image: url('../img/footer.png');
