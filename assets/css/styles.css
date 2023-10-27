@@ -475,7 +475,9 @@ a {
 .w-98 {
     width: 98px;
 }
-
+.w-101 {
+    width: 101px;
+}
 .w-123 {
     width: 123px;
 }
@@ -1009,7 +1011,19 @@ header ul li g {
 .smallImgs .swiper-slide-thumb-active {
     opacity: 1;
 }
-
+/* models page */
+.model-card:hover .colors{
+    display: none!important;
+}
+.model-card .addToCartBtn{
+    max-height: 0;
+    overflow: hidden;
+    transition: all .4s;
+ }
+.model-card:hover .addToCartBtn{
+   max-height: 59px;
+   padding: 20px 0;
+}
 /* footer */
 footer {
     background-image: url('../img/footer.png');
