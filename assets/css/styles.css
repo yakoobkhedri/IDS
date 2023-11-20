@@ -506,8 +506,8 @@ a {
 .w-222 {
     width: 222px;
 }
-.h-97 {
-    height: 97px;
+.h-79 {
+    height: 79px;
 }
 
 .h-106 {
@@ -1100,7 +1100,10 @@ footer {
 
 @media only screen and (max-width:576px) {
     #banner .fs-64 {
-        font-size: 48px;
+        font-size: 39px;
+    }
+    #banner .fs-20,.service-box .fs-20,#about .fs-20 {
+        font-size: 16px;
     }
 
     #banner .bottom-165 {
