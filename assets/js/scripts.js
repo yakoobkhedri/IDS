@@ -19,7 +19,7 @@ overlay.addEventListener('click',function () {
 })
 
 // aos
-AOS.init();
+// AOS.init();
 
 // swiper
 var models = new Swiper(".models", {
@@ -28,13 +28,13 @@ var models = new Swiper(".models", {
     spaceBetween: 20,
     breakpoints: {
         576: {
-            slidesPerView: 1
+            slidesPerView: 2,
         },
         992: {
-            slidesPerView: 3
+            slidesPerView: 3,
         },
         1200: {
-            slidesPerView: 4
+            slidesPerView: 4,
         }
     },
     navigation: {
