@@ -1116,6 +1116,9 @@ footer {
         width: 16px;
         height: 16px;
     }
+    .-bottom-160-sm{
+        bottom: -160px;
+    }
 }
 
 @media only screen and (max-width:400px) {}
