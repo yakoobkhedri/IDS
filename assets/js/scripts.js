@@ -18,10 +18,11 @@ overlay.addEventListener('click',function () {
     overlay.classList.remove('active');
 })
 
-// aos
-// AOS.init();
-
 // swiper
+var banner = new Swiper(".banner", {
+    loop: true,
+    slidesPerView: 1,
+});
 var models = new Swiper(".models", {
     loop: true,
     slidesPerView: 1.1,
