@@ -83,6 +83,10 @@ body.pannel {
     background-color: #fafafb;
 }
 
+.bg-gray4 {
+    background-color: #fbf9f9;
+}
+
 .bg-sky {
     background-color: #caf1f8;
 }
@@ -211,6 +215,10 @@ a {
 
 .rounded-tr-0 {
     border-radius: 20px 0 20px 20px;
+}
+.rounded-t-circle{
+    border-top-right-radius: 47%;
+    border-top-left-radius: 47%;
 }
 
 .cursor-pointer {
@@ -903,6 +911,18 @@ input[type='number'],
         transform: translateX(-90px);
     }
 }
+@keyframes banner {
+    0% {bottom: 0px;}
+    20% {bottom: 150px;}
+    40% {bottom: 300px;}
+    60% {bottom: 450px;}
+    80% {bottom: 600px;}
+  100% {bottom: 857px;}
+  }
+  
+ #banner-overlay {
+    animation: banner 8s normal forwards steps(4, end) ;
+  }
 
 .mobileMenu {
     background-image: url('../img/mobilemenu.png');

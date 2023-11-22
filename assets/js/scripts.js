@@ -22,6 +22,9 @@ overlay.addEventListener('click',function () {
 var banner = new Swiper(".banner", {
     loop: true,
     slidesPerView: 1,
+    autoplay: {
+        delay: 2500,
+    },
 });
 var models = new Swiper(".models", {
     loop: true,
