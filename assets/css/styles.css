@@ -1103,9 +1103,13 @@ footer {
     .regSection{
         height: auto!important;
     }
+    footer {
+        padding-bottom: 110px !important;
+    }
     footer .top-8 {
         top: -17px;
       }
+      
 }
 
 @media only screen and (max-width:768px) {
@@ -1119,9 +1123,6 @@ footer {
 
     .w-363,.submitComment {
         width: 100% !important;
-    }
-    footer {
-        padding-bottom: 110px !important;
     }
 }
 
