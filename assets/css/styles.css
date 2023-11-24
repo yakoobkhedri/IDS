@@ -912,16 +912,16 @@ input[type='number'],
     }
 }
 @keyframes banner {
-    0% {bottom: 0px;}
-    20% {bottom: 150px;}
-    40% {bottom: 300px;}
-    60% {bottom: 450px;}
-    80% {bottom: 600px;}
-  100% {bottom: 857px;}
+    0% {min-height: 0;}
+    20% {min-height: 50px;}
+    40% {min-height: 200px;}
+    60% {min-height: 350px;}
+    80% {min-height: 500px;}
+    100% {min-height: 650px;}
   }
   
  #banner-overlay {
-    animation: banner 8s normal forwards steps(4, end) ;
+    animation: banner 2.5s normal forwards steps(4, end) ;
   }
 
 .mobileMenu {
