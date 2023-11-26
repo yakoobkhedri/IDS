@@ -1124,6 +1124,10 @@ footer {
     .w-363,.submitComment {
         width: 100% !important;
     }
+    .article-item{
+        border-bottom: 6px solid #64ccc5;
+        border-left: 0;
+    }
 }
 
 @media only screen and (max-width:576px) {
