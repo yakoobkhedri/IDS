@@ -311,6 +311,12 @@ a {
 .h-100vh {
     height: 100vh;
 }
+.h-109 {
+    height: 109px;
+}
+.w-109 {
+    width: 109px;
+}
 
 .h-2 {
     height: 2px;
