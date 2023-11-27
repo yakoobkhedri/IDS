@@ -31,6 +31,9 @@ body.pannel {
 .main-text {
     color: #64CCC5 !important;
 }
+.bg-info-blur{
+    background-color: #bed7d7;
+}
 
 .main-bg {
     background-color: #64CCC5;
@@ -38,6 +41,9 @@ body.pannel {
 
 .bg-info2 {
     background-color: #D1ECF1;
+}
+.bg-info3{
+    background-color: #64CCC5;
 }
 
 .bg-yellow {
@@ -237,8 +243,18 @@ a {
 .mt-105 {
     margin-top: -105px;
 }
+.pr-46{
+    padding-right: 46px;
+}
 .top-5 {
     top: -5px;
+}
+
+.top-24 {
+    top: 24px;
+}
+.-top-26 {
+    top: -26px;
 }
 
 .top-31 {
@@ -270,6 +286,9 @@ a {
 }
 .top-204{
     top:204px
+}
+.-left-4{
+    left: -4px;
 }
 .left-11 {
     left: 11px;
@@ -374,6 +393,10 @@ a {
     width: 23px;
 }
 
+.w-34 {
+    width: 34px;
+}
+
 .w-36 {
     width: 36px;
 }
@@ -382,8 +405,15 @@ a {
     height: 31px;
 }
 
+.h-34 {
+    height: 34px;
+}
+
 .h-36 {
     height: 36px;
+}
+.h-38 {
+    height: 38px;
 }
 
 .h-26 {
@@ -488,6 +518,9 @@ a {
 
 .w-90 {
     width: 90%;
+}
+.w-91 {
+    width: 91px;
 }
 
 .w-98 {
