@@ -306,7 +306,9 @@ a {
 .left-241 {
     left: -241px
 }
-
+.-right-15{
+    right: -15px;
+}
 .right-23 {
     right: -23px
 }
