@@ -290,6 +290,9 @@ a {
 .-left-4{
     left: -4px;
 }
+.left-8{
+    left: 8px;
+}
 .left-11 {
     left: 11px;
 }
@@ -748,7 +751,9 @@ a {
 .left-78 {
     left: -78px;
 }
-
+.-bottom-6 {
+    bottom: -6px;
+}
 .bottom-45 {
     bottom: -45px;
 }
