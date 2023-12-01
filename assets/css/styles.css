@@ -1200,6 +1200,9 @@ footer {
     .-bottom-160-sm{
         bottom: -160px;
     }
+    .w-sm-100{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:400px) {
