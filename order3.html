@@ -17,267 +17,263 @@
       <!-- overlay -->
       <div id="overlay"></div>
 
-    <!-- mobile menu -->
-    <div class="position-fixed d-md-none bottom-0 end-0 start-0 py-5 z-10 h-79">
-      <a
-        class="main-bg cursor-pointer z-20 left-11 w-56 h-56 d-block rounded-circle d-flex align-items-center justify-content-center position-absolute end-0 top-0 mx-auto">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path
-            d="M5 12.7595C5 11.4018 5 10.7229 5.27446 10.1262C5.54892 9.52943 6.06437 9.08763 7.09525 8.20401L8.09525 7.34687C9.95857 5.74974 10.8902 4.95117 12 4.95117C13.1098 4.95117 14.0414 5.74974 15.9047 7.34687L16.9047 8.20401C17.9356 9.08763 18.4511 9.52943 18.7255 10.1262C19 10.7229 19 11.4018 19 12.7595V16.9999C19 18.8856 19 19.8284 18.4142 20.4142C17.8284 20.9999 16.8856 20.9999 15 20.9999H9C7.11438 20.9999 6.17157 20.9999 5.58579 20.4142C5 19.8284 5 18.8856 5 16.9999V12.7595Z"
-            stroke="white" stroke-width="2" />
-          <path d="M14.5 21V16C14.5 15.4477 14.0523 15 13.5 15H10.5C9.94772 15 9.5 15.4477 9.5 16V21" stroke="white"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-        </svg>
-      </a>
-      <img alt="mobileMenu" src="assets/img/mobilemenu.png"
-        class="position-absolute z-10 h-79 end-0 start-0 bottom-0 w-100">
-      <div class="container position-relative z-10">
-        <div class="d-flex align-items-center justify-content-between">
-          <a class="d-block me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <path
-                d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471"
-                stroke="white" stroke-width="2" stroke-linecap="round" />
-              <circle cx="12" cy="8" r="4" stroke="white" stroke-width="2" stroke-linecap="round" />
-            </svg>
-          </a>
-          <a class="d-block ms-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <path
-                d="M4 4H5.62563C6.193 4 6.47669 4 6.70214 4.12433C6.79511 4.17561 6.87933 4.24136 6.95162 4.31912C7.12692 4.50769 7.19573 4.7829 7.33333 5.33333L7.51493 6.05972C7.616 6.46402 7.66654 6.66617 7.74455 6.83576C8.01534 7.42449 8.5546 7.84553 9.19144 7.96546C9.37488 8 9.58326 8 10 8V8"
-                stroke="white" stroke-width="2" stroke-linecap="round" />
-              <path
-                d="M18 17H7.55091C7.40471 17 7.33162 17 7.27616 16.9938C6.68857 16.928 6.28605 16.3695 6.40945 15.7913C6.42109 15.7367 6.44421 15.6674 6.49044 15.5287V15.5287C6.54177 15.3747 6.56743 15.2977 6.59579 15.2298C6.88607 14.5342 7.54277 14.0608 8.29448 14.0054C8.3679 14 8.44906 14 8.61137 14H14"
-                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              <path
-                d="M14.5279 14H10.9743C9.75838 14 9.15042 14 8.68147 13.7246C8.48343 13.6083 8.30689 13.4588 8.15961 13.2825C7.81087 12.8652 7.71092 12.2655 7.51103 11.0662C7.30849 9.85093 7.20722 9.2433 7.44763 8.79324C7.54799 8.60536 7.68722 8.44101 7.85604 8.31113C8.26045 8 8.87646 8 10.1085 8H16.7639C18.2143 8 18.9395 8 19.2326 8.47427C19.5257 8.94854 19.2014 9.59717 18.5528 10.8944L18.1056 11.7889C17.5677 12.8647 17.2987 13.4026 16.8154 13.7013C16.3321 14 15.7307 14 14.5279 14Z"
-                stroke="white" stroke-width="2" stroke-linecap="round" />
-              <circle cx="17" cy="20" r="1" fill="white" />
-              <circle cx="9" cy="20" r="1" fill="white" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  
-    <!-- header -->
-  
-    <header class="py-4 border-bottom">
-      <nav class="container">
-        <div class="d-flex align-items-center justify-content-between">
-          <!-- ham icon -->
-          <svg id="hamIcon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
-            class="bi bi-list d-lg-none cursor-pointer flex-shrink-0" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-          </svg>
-          <!-- logo && menu -->
-          <div class="d-flex align-items-center gap-4">
-            <div class="d-flex align-items-center">
-              <!-- logo -->
+             <!-- mobile menu -->
+             <div class="position-fixed d-md-none bottom-0 end-0 start-0 py-5 z-10 h-79">
               <a
-                class="d-none d-lg-flex align-items-center fs-20 fw-bold text-dark justify-content-center w-70 h-46 rounded-3 bg-gray shadow-sm border border-2 border-dark">
-                logo
-              </a>
-            </div>
-            <!-- menu -->
-            <ul id="menu" class="list-unstyled p-0 mb-0 d-flex flex-column flex-lg-row align-items-lg-center gap-lg-4">
-              <li class="d-flex d-lg-none mb-3 align-items-center justify-content-between">
-                <a
-                  class="d-flex align-items-center fs-20 fw-bold text-dark justify-content-center w-70 h-46 rounded-3 bg-gray shadow-sm border border-2 border-dark">
-                  logo
-                </a>
-                <svg id="closemenu" class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="none">
-                  <path d="M18 6L6 18" stroke="#33363F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M6 6L18 18" stroke="#33363F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </li>
-              <li class="d-lg-none">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 main-text">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="main-stroke" width="24" height="24" viewBox="0 0 24 24"
-                    fill="none">
-                    <path class="main-stroke"
-                      d="M5 12.7595C5 11.4018 5 10.7229 5.27446 10.1262C5.54892 9.52943 6.06437 9.08763 7.09525 8.20401L8.09525 7.34687C9.95857 5.74974 10.8902 4.95117 12 4.95117C13.1098 4.95117 14.0414 5.74974 15.9047 7.34687L16.9047 8.20401C17.9356 9.08763 18.4511 9.52943 18.7255 10.1262C19 10.7229 19 11.4018 19 12.7595V16.9999C19 18.8856 19 19.8284 18.4142 20.4142C17.8284 20.9999 16.8856 20.9999 15 20.9999H9C7.11438 20.9999 6.17157 20.9999 5.58579 20.4142C5 19.8284 5 18.8856 5 16.9999V12.7595Z"
-                      stroke="#505050" stroke-width="2" />
-                    <path class="main-stroke"
-                      d="M14.5 21V16C14.5 15.4477 14.0523 15 13.5 15H10.5C9.94772 15 9.5 15.4477 9.5 16V21"
-                      stroke="#505050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                  <p class="mb-0 mt-2">خانه</p>
-                </a>
-              </li>
-              <li class="d-block text-dark">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                    class="bi bi-shop-window d-lg-none nonstroke" viewBox="0 0 16 16">
-                    <path
-                      d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z" />
-                  </svg>
-                  <p class="mb-0 mt-2">فروشگاه</p>
-                </a>
-              </li>
-              <li class="nav-item dropdown d-flex align-items-center py-1 gap-2">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
-                    fill="none">
-                    <g clip-path="url(#clip0_79_2309)">
-                      <path class="shop"
-                        d="M20 6H17V4C17 2.89 16.11 2 15 2H9C7.89 2 7 2.89 7 4V6H4C2.89 6 2 6.89 2 8V19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8C22 6.89 21.11 6 20 6ZM9 4H15V6H9V4ZM20 19H4V17H20V19ZM20 14H4V8H7H9H15H17H20V14Z"
-                        fill="#33363F" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_79_2309">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <div class="mt-lg-2">
-                    <a class="nav-link dropdown-toggle text-dark p-0" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      خدمات ساخت
-                    </a>
-                    <ul class="dropdown-menu text-end">
-                      <li><a class="dropdown-item" href="#">خدمات 1</a></li>
-                      <li><a class="dropdown-item" href="#">خدمات 2</a></li>
-                    </ul>
-                  </div>
-                </a>
-              </li>
-              <li class="d-block text-dark">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
-                    fill="none">
-                    <path
-                      d="M4 9.65685C4 8.83935 4 8.4306 4.15224 8.06306C4.30448 7.69552 4.59351 7.40649 5.17157 6.82843L5.82843 6.17157C6.40649 5.59351 6.69552 5.30448 7.06306 5.15224C7.4306 5 7.83935 5 8.65685 5H15.3431C16.1606 5 16.5694 5 16.9369 5.15224C17.3045 5.30448 17.5935 5.59351 18.1716 6.17157L18.8284 6.82843C19.4065 7.40649 19.6955 7.69552 19.8478 8.06306C20 8.4306 20 8.83935 20 9.65685V16C20 17.8856 20 18.8284 19.4142 19.4142C18.8284 20 17.8856 20 16 20H8C6.11438 20 5.17157 20 4.58579 19.4142C4 18.8284 4 17.8856 4 16V9.65685Z"
-                      stroke="#505050" stroke-width="2" />
-                    <path d="M4 10H20" stroke="#505050" stroke-width="2" stroke-linecap="round" />
-                    <path class="shop"
-                      d="M14.8332 9L9.1665 9C8.9308 9 8.81295 9 8.73973 9.07322C8.6665 9.14645 8.6665 9.2643 8.6665 9.5L8.6665 13.6667C8.6665 14.4315 8.6665 14.8139 8.76541 15.0194C8.98621 15.4782 9.51649 15.6979 9.99705 15.5296C10.2123 15.4542 10.4827 15.1838 11.0235 14.643C11.274 14.3925 11.3992 14.2673 11.5324 14.1969C11.8248 14.0422 12.1748 14.0422 12.4673 14.1969C12.6004 14.2673 12.7257 14.3925 12.9761 14.643C13.517 15.1838 13.7874 15.4542 14.0026 15.5296C14.4832 15.6979 15.0135 15.4782 15.2343 15.0194C15.3332 14.8139 15.3332 14.4315 15.3332 13.6667V9.5C15.3332 9.2643 15.3332 9.14645 15.2599 9.07322C15.1867 9 15.0689 9 14.8332 9Z"
-                      fill="#505050" />
-                  </svg>
-                  <p class="mb-0 mt-2">نمونه کار</p>
-                </a>
-              </li>
-              <li class="d-block text-dark">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
-                    fill="none">
-                    <path
-                      d="M4 7C4 5.11438 4 4.17157 4.58579 3.58579C5.17157 3 6.11438 3 8 3H16C17.8856 3 18.8284 3 19.4142 3.58579C20 4.17157 20 5.11438 20 7V15C20 17.8284 20 19.2426 19.1213 20.1213C18.2426 21 16.8284 21 14 21H10C7.17157 21 5.75736 21 4.87868 20.1213C4 19.2426 4 17.8284 4 15V7Z"
-                      stroke="#505050" stroke-width="2" />
-                    <path d="M15 18L15 21M9 18L9 21" stroke="#505050" stroke-width="2" stroke-linecap="round" />
-                    <path d="M9 8L15 8" stroke="#505050" stroke-width="2" stroke-linecap="round" />
-                    <path d="M9 12L15 12" stroke="#505050" stroke-width="2" stroke-linecap="round" />
-                  </svg>
-                  <p class="mb-0 mt-2">وبلاگ</p>
-                </a>
-              </li>
-              <li class="d-lg-none text-dark">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
-                    fill="none">
-                    <path
-                      d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471"
-                      stroke="#505050" stroke-width="2" stroke-linecap="round" />
-                    <circle cx="12" cy="8" r="4" stroke="#505050" stroke-width="2" stroke-linecap="round" />
-                  </svg>
-                  <p class="mb-0 mt-2">ورود | ثبت نام</p>
-                </a>
-              </li>
-              <li class="d-lg-none text-dark">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg class="d-lh-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
-                    fill="none">
-                    <path
-                      d="M20 12C20 8.22876 20 6.34315 18.8284 5.17157C18.8284 5.17157 18.8284 5.17157 18.8284 5.17157C17.6569 4 15.7712 4 12 4V4C8.22876 4 6.34315 4 5.17157 5.17157C4 6.34315 4 8.22876 4 12V18C4 18.9428 4 19.4142 4.29289 19.7071C4.58579 20 5.05719 20 6 20H12C15.7712 20 17.6569 20 18.8284 18.8284C18.8284 18.8284 18.8284 18.8284 18.8284 18.8284C20 17.6569 20 15.7712 20 12V12Z"
-                      stroke="#505050" stroke-width="2" />
-                    <path d="M9 10L15 10" stroke="#505050" stroke-width="2" stroke-linecap="round"
-                      stroke-linejoin="round" />
-                    <path d="M9 14H12" stroke="#505050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
-                  <p class="mb-0 mt-2">سوالات متداول</p>
-                </a>
-              </li>
-              <li class="d-lg-none text-dark">
-                <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
-                  <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
-                    fill="none">
-                    <circle cx="12" cy="12" r="9" stroke="#33363F" stroke-width="2" />
-                    <circle cx="12" cy="18" r="0.5" fill="#33363F" stroke="#33363F" />
-                    <path
-                      d="M12 16V14.5811C12 13.6369 12.6042 12.7986 13.5 12.5V12.5C14.3958 12.2014 15 11.3631 15 10.4189V9.90569C15 8.30092 13.6991 7 12.0943 7H12C10.3431 7 9 8.34315 9 10V10"
-                      stroke="#33363F" stroke-width="2" />
-                  </svg>
-                  <p class="mb-0 mt-2">راهنما</p>
-                </a>
-              </li>
-            </ul>
-            <!-- darkmode -->
-            <div class="rounded-pill d-none d-lg-block w-38 h-21 bg-gray mr-66">
-              <div
-                class="w-20 h-20 rounded-circle d-flex align-items-center justify-content-center cursor-pointer second-bg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                class="main-bg cursor-pointer z-20 left-11 w-56 h-56 d-block rounded-circle d-flex align-items-center justify-content-center position-absolute end-0 top-0 mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
-                    d="M2.95028 1.34429L2.61211 1.83992L2.95028 1.34429ZM1.38106 12.4547L1.96314 12.3092L1.96314 12.3092L1.38106 12.4547ZM1.39709 12.5066L1.95993 12.2988L1.39709 12.5066ZM2.61232 10.4925C3.99457 9.54933 4.89992 7.96346 4.89992 6.1663H6.09992C6.09992 8.37676 4.98457 10.3265 3.2887 11.4838L2.61232 10.4925ZM4.89992 6.1663C4.89992 4.36905 3.99448 2.7831 2.61211 1.83992L3.28844 0.848667C4.98446 2.00586 6.09992 3.95573 6.09992 6.1663H4.89992ZM8.23325 7.00008C8.23325 4.10979 5.89021 1.76675 2.99992 1.76675V0.566748C6.55295 0.566748 9.43325 3.44705 9.43325 7.00008H8.23325ZM2.99992 12.2334C5.89021 12.2334 8.23325 9.89037 8.23325 7.00008H9.43325C9.43325 10.5531 6.55295 13.4334 2.99992 13.4334V12.2334ZM2.61211 1.83992C2.33895 1.65354 2.26079 1.33439 2.33152 1.07667C2.40395 0.81275 2.64821 0.566748 2.99992 0.566748V1.76675C3.25674 1.76675 3.43699 1.58278 3.48873 1.39426C3.53877 1.21194 3.48322 0.981564 3.28844 0.848667L2.61211 1.83992ZM3.2887 11.4838C2.72326 11.8696 2.34613 12.1282 2.11415 12.3298C1.9983 12.4304 1.9582 12.484 1.94935 12.4987C1.94827 12.5005 1.99162 12.4231 1.96314 12.3092L0.798978 12.6002C0.728248 12.3174 0.808825 12.0662 0.92181 11.8789C1.02702 11.7045 1.17782 11.5536 1.32707 11.4239C1.62528 11.1648 2.07512 10.8591 2.61232 10.4925L3.2887 11.4838ZM2.99992 13.4334C2.52802 13.4334 2.10035 13.4352 1.78084 13.3854C1.46676 13.3365 1.01363 13.2002 0.834249 12.7145L1.95993 12.2988C1.90124 12.1398 1.75547 12.167 1.96561 12.1997C2.17032 12.2316 2.48373 12.2334 2.99992 12.2334V13.4334ZM1.96314 12.3092C1.96226 12.3056 1.96119 12.3022 1.95993 12.2988L0.834249 12.7145C0.820426 12.6771 0.808656 12.6389 0.798978 12.6002L1.96314 12.3092Z"
-                    fill="#FBF9F9" />
+                    d="M5 12.7595C5 11.4018 5 10.7229 5.27446 10.1262C5.54892 9.52943 6.06437 9.08763 7.09525 8.20401L8.09525 7.34687C9.95857 5.74974 10.8902 4.95117 12 4.95117C13.1098 4.95117 14.0414 5.74974 15.9047 7.34687L16.9047 8.20401C17.9356 9.08763 18.4511 9.52943 18.7255 10.1262C19 10.7229 19 11.4018 19 12.7595V16.9999C19 18.8856 19 19.8284 18.4142 20.4142C17.8284 20.9999 16.8856 20.9999 15 20.9999H9C7.11438 20.9999 6.17157 20.9999 5.58579 20.4142C5 19.8284 5 18.8856 5 16.9999V12.7595Z"
+                    stroke="white" stroke-width="2" />
+                  <path d="M14.5 21V16C14.5 15.4477 14.0523 15 13.5 15H10.5C9.94772 15 9.5 15.4477 9.5 16V21" stroke="white"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
+              </a>
+              <img alt="mobileMenu" src="assets/img/mobilemenu.png"
+                class="position-absolute z-10 h-79 end-0 start-0 bottom-0 w-100">
+              <div class="container position-relative z-10">
+                <div class="d-flex align-items-center justify-content-between">
+                  <a class="d-block me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471"
+                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                      <circle cx="12" cy="8" r="4" stroke="white" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </a>
+                  <a class="d-block ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M4 4H5.62563C6.193 4 6.47669 4 6.70214 4.12433C6.79511 4.17561 6.87933 4.24136 6.95162 4.31912C7.12692 4.50769 7.19573 4.7829 7.33333 5.33333L7.51493 6.05972C7.616 6.46402 7.66654 6.66617 7.74455 6.83576C8.01534 7.42449 8.5546 7.84553 9.19144 7.96546C9.37488 8 9.58326 8 10 8V8"
+                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                      <path
+                        d="M18 17H7.55091C7.40471 17 7.33162 17 7.27616 16.9938C6.68857 16.928 6.28605 16.3695 6.40945 15.7913C6.42109 15.7367 6.44421 15.6674 6.49044 15.5287V15.5287C6.54177 15.3747 6.56743 15.2977 6.59579 15.2298C6.88607 14.5342 7.54277 14.0608 8.29448 14.0054C8.3679 14 8.44906 14 8.61137 14H14"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M14.5279 14H10.9743C9.75838 14 9.15042 14 8.68147 13.7246C8.48343 13.6083 8.30689 13.4588 8.15961 13.2825C7.81087 12.8652 7.71092 12.2655 7.51103 11.0662C7.30849 9.85093 7.20722 9.2433 7.44763 8.79324C7.54799 8.60536 7.68722 8.44101 7.85604 8.31113C8.26045 8 8.87646 8 10.1085 8H16.7639C18.2143 8 18.9395 8 19.2326 8.47427C19.5257 8.94854 19.2014 9.59717 18.5528 10.8944L18.1056 11.7889C17.5677 12.8647 17.2987 13.4026 16.8154 13.7013C16.3321 14 15.7307 14 14.5279 14Z"
+                        stroke="white" stroke-width="2" stroke-linecap="round" />
+                      <circle cx="17" cy="20" r="1" fill="white" />
+                      <circle cx="9" cy="20" r="1" fill="white" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- login && contact -->
-          <div class="d-flex align-items-center gap-5">
-            <!-- login -->
-            <div class="d-lg-flex d-none align-items-stretch w-156 h-27 bg-gray rounded-pill">
-              <a class="text-white second-bg rounded-pill flex-grow-1 text-center">ورود</a>
-              <a class="second-text rounded-pill flex-grow-1 text-center">ثبت نام</a>
-            </div>
-            <!-- social icons -->
-            <div class="d-none d-lg-flex align-items-center gap-4">
-              <a class="d-block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
-                  <path
-                    d="M14.7071 11.7071L17.3552 14.3552C17.7113 14.7113 17.7113 15.2887 17.3552 15.6448C15.43 17.57 12.3821 17.7866 10.204 16.153L8.62857 14.9714C6.88504 13.6638 5.33622 12.115 4.02857 10.3714L2.84701 8.79601C1.21341 6.61788 1.43001 3.56999 3.35523 1.64477C3.71133 1.28867 4.28867 1.28867 4.64477 1.64477L7.29289 4.29289C7.68342 4.68342 7.68342 5.31658 7.29289 5.70711L6.27175 6.72825C6.10946 6.89054 6.06923 7.13846 6.17187 7.34373C7.35853 9.71706 9.28294 11.6415 11.6563 12.8281C11.8615 12.9308 12.1095 12.8905 12.2717 12.7283L13.2929 11.7071C13.6834 11.3166 14.3166 11.3166 14.7071 11.7071Z"
-                    stroke="#053B50" stroke-width="2" />
-                </svg>
-              </a>
-              <a class="d-block position-relative">
-                <div
-                  class="position-absolute w-14 h-14 fs-12 top-5 rounded-circle cursor-pointer d-flex align-items-center justify-content-center main-bg text-white fw-bold">
-                  1</div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M4 4H5.62563C6.193 4 6.47669 4 6.70214 4.12433C6.79511 4.17561 6.87933 4.24136 6.95162 4.31912C7.12692 4.50769 7.19573 4.7829 7.33333 5.33333L7.51493 6.05972C7.616 6.46402 7.66654 6.66617 7.74455 6.83576C8.01534 7.42449 8.5546 7.84553 9.19144 7.96546C9.37488 8 9.58326 8 10 8V8"
-                    stroke="#053B50" stroke-width="2" stroke-linecap="round" />
-                  <path
-                    d="M18 17H7.55091C7.40471 17 7.33162 17 7.27616 16.9938C6.68857 16.928 6.28605 16.3695 6.40945 15.7913C6.42109 15.7367 6.44421 15.6674 6.49044 15.5287V15.5287C6.54177 15.3747 6.56743 15.2977 6.59579 15.2298C6.88607 14.5342 7.54277 14.0608 8.29448 14.0054C8.3679 14 8.44906 14 8.61137 14H14"
-                    stroke="#053B50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path
-                    d="M14.5279 14H10.9743C9.75838 14 9.15042 14 8.68147 13.7246C8.48343 13.6083 8.30689 13.4588 8.15961 13.2825C7.81087 12.8652 7.71092 12.2655 7.51103 11.0662C7.30849 9.85093 7.20722 9.2433 7.44763 8.79324C7.54799 8.60536 7.68722 8.44101 7.85604 8.31113C8.26045 8 8.87646 8 10.1085 8H16.7639C18.2143 8 18.9395 8 19.2326 8.47427C19.5257 8.94854 19.2014 9.59717 18.5528 10.8944L18.1056 11.7889C17.5677 12.8647 17.2987 13.4026 16.8154 13.7013C16.3321 14 15.7307 14 14.5279 14Z"
-                    stroke="#053B50" stroke-width="2" stroke-linecap="round" />
-                  <circle cx="17" cy="20" r="1" fill="#053B50" />
-                  <circle cx="9" cy="20" r="1" fill="#053B50" />
-                </svg>
-              </a>
-              <a class="d-none d-lg-block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="9" stroke="#053B50" stroke-width="2" />
-                  <circle cx="12" cy="18" r="0.5" fill="#053B50" stroke="#053B50" />
-                  <path
-                    d="M12 16V14.5811C12 13.6369 12.6042 12.7986 13.5 12.5V12.5C14.3958 12.2014 15 11.3631 15 10.4189V9.90569C15 8.30092 13.6991 7 12.0943 7H12C10.3431 7 9 8.34315 9 10V10"
-                    stroke="#053B50" stroke-width="2" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <!-- logo -->
-          <a
-            class="d-flex d-lg-none align-items-center fs-20 fw-bold text-dark justify-content-center w-70 h-46 rounded-3 bg-gray shadow-sm border border-2 border-dark">
-            logo
-          </a>
-        </div>
-      </nav>
-    </header>
+          
+            <!-- header -->
+            <header class="py-4 border-bottom">
+              <nav class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                  <!-- ham icon -->
+                  <svg id="hamIcon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                    class="bi bi-list d-lg-none cursor-pointer flex-shrink-0" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                  </svg>
+                  <!-- logo && menu -->
+                  <div class="d-flex align-items-center gap-4">
+                    <div class="d-flex align-items-center">
+                      <!-- logo -->
+                      <a class="d-none d-lg-flex align-items-center fs-20 fw-bold text-dark justify-content-center">
+                        <img alt="logo" src="assets/img/logo.png" class="img-fluid d-block w-122">
+                      </a>
+                    </div>
+                    <!-- menu -->
+                    <ul id="menu" class="list-unstyled p-0 mb-0 d-flex flex-column flex-lg-row align-items-lg-center gap-lg-4">
+                      <li class="d-flex d-lg-none mb-3 align-items-center justify-content-between">
+                        <a class="d-flex align-items-center fs-20 fw-bold text-dark justify-content-center">
+                          <img alt="logo" src="assets/img/logo.png" class="img-fluid d-block w-122">
+                        </a>
+                        <svg id="closemenu" class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none">
+                          <path d="M18 6L6 18" stroke="#33363F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M6 6L18 18" stroke="#33363F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </li>
+                      <li class="d-lg-none">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 main-text">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="main-stroke" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path class="main-stroke"
+                              d="M5 12.7595C5 11.4018 5 10.7229 5.27446 10.1262C5.54892 9.52943 6.06437 9.08763 7.09525 8.20401L8.09525 7.34687C9.95857 5.74974 10.8902 4.95117 12 4.95117C13.1098 4.95117 14.0414 5.74974 15.9047 7.34687L16.9047 8.20401C17.9356 9.08763 18.4511 9.52943 18.7255 10.1262C19 10.7229 19 11.4018 19 12.7595V16.9999C19 18.8856 19 19.8284 18.4142 20.4142C17.8284 20.9999 16.8856 20.9999 15 20.9999H9C7.11438 20.9999 6.17157 20.9999 5.58579 20.4142C5 19.8284 5 18.8856 5 16.9999V12.7595Z"
+                              stroke="#505050" stroke-width="2" />
+                            <path class="main-stroke"
+                              d="M14.5 21V16C14.5 15.4477 14.0523 15 13.5 15H10.5C9.94772 15 9.5 15.4477 9.5 16V21"
+                              stroke="#505050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                          <p class="mb-0 mt-2">خانه</p>
+                        </a>
+                      </li>
+                      <li class="d-block text-dark">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-shop-window d-lg-none nonstroke" viewBox="0 0 16 16">
+                            <path
+                              d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z" />
+                          </svg>
+                          <p class="mb-0 mt-2">فروشگاه</p>
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown d-flex align-items-center py-1 gap-2">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            fill="none">
+                            <g clip-path="url(#clip0_79_2309)">
+                              <path class="shop"
+                                d="M20 6H17V4C17 2.89 16.11 2 15 2H9C7.89 2 7 2.89 7 4V6H4C2.89 6 2 6.89 2 8V19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8C22 6.89 21.11 6 20 6ZM9 4H15V6H9V4ZM20 19H4V17H20V19ZM20 14H4V8H7H9H15H17H20V14Z"
+                                fill="#33363F" />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_79_2309">
+                                <rect width="24" height="24" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <div class="mt-lg-2">
+                            <a class="nav-link dropdown-toggle text-dark p-0" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              خدمات ساخت
+                            </a>
+                            <ul class="dropdown-menu text-end">
+                              <li><a class="dropdown-item" href="#">خدمات 1</a></li>
+                              <li><a class="dropdown-item" href="#">خدمات 2</a></li>
+                            </ul>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="d-block text-dark">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              d="M4 9.65685C4 8.83935 4 8.4306 4.15224 8.06306C4.30448 7.69552 4.59351 7.40649 5.17157 6.82843L5.82843 6.17157C6.40649 5.59351 6.69552 5.30448 7.06306 5.15224C7.4306 5 7.83935 5 8.65685 5H15.3431C16.1606 5 16.5694 5 16.9369 5.15224C17.3045 5.30448 17.5935 5.59351 18.1716 6.17157L18.8284 6.82843C19.4065 7.40649 19.6955 7.69552 19.8478 8.06306C20 8.4306 20 8.83935 20 9.65685V16C20 17.8856 20 18.8284 19.4142 19.4142C18.8284 20 17.8856 20 16 20H8C6.11438 20 5.17157 20 4.58579 19.4142C4 18.8284 4 17.8856 4 16V9.65685Z"
+                              stroke="#505050" stroke-width="2" />
+                            <path d="M4 10H20" stroke="#505050" stroke-width="2" stroke-linecap="round" />
+                            <path class="shop"
+                              d="M14.8332 9L9.1665 9C8.9308 9 8.81295 9 8.73973 9.07322C8.6665 9.14645 8.6665 9.2643 8.6665 9.5L8.6665 13.6667C8.6665 14.4315 8.6665 14.8139 8.76541 15.0194C8.98621 15.4782 9.51649 15.6979 9.99705 15.5296C10.2123 15.4542 10.4827 15.1838 11.0235 14.643C11.274 14.3925 11.3992 14.2673 11.5324 14.1969C11.8248 14.0422 12.1748 14.0422 12.4673 14.1969C12.6004 14.2673 12.7257 14.3925 12.9761 14.643C13.517 15.1838 13.7874 15.4542 14.0026 15.5296C14.4832 15.6979 15.0135 15.4782 15.2343 15.0194C15.3332 14.8139 15.3332 14.4315 15.3332 13.6667V9.5C15.3332 9.2643 15.3332 9.14645 15.2599 9.07322C15.1867 9 15.0689 9 14.8332 9Z"
+                              fill="#505050" />
+                          </svg>
+                          <p class="mb-0 mt-2">نمونه کار</p>
+                        </a>
+                      </li>
+                      <li class="d-block text-dark">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              d="M4 7C4 5.11438 4 4.17157 4.58579 3.58579C5.17157 3 6.11438 3 8 3H16C17.8856 3 18.8284 3 19.4142 3.58579C20 4.17157 20 5.11438 20 7V15C20 17.8284 20 19.2426 19.1213 20.1213C18.2426 21 16.8284 21 14 21H10C7.17157 21 5.75736 21 4.87868 20.1213C4 19.2426 4 17.8284 4 15V7Z"
+                              stroke="#505050" stroke-width="2" />
+                            <path d="M15 18L15 21M9 18L9 21" stroke="#505050" stroke-width="2" stroke-linecap="round" />
+                            <path d="M9 8L15 8" stroke="#505050" stroke-width="2" stroke-linecap="round" />
+                            <path d="M9 12L15 12" stroke="#505050" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                          <p class="mb-0 mt-2">وبلاگ</p>
+                        </a>
+                      </li>
+                      <li class="d-lg-none text-dark">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471"
+                              stroke="#505050" stroke-width="2" stroke-linecap="round" />
+                            <circle cx="12" cy="8" r="4" stroke="#505050" stroke-width="2" stroke-linecap="round" />
+                          </svg>
+                          <p class="mb-0 mt-2">ورود | ثبت نام</p>
+                        </a>
+                      </li>
+                      <li class="d-lg-none text-dark">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg class="d-lh-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              d="M20 12C20 8.22876 20 6.34315 18.8284 5.17157C18.8284 5.17157 18.8284 5.17157 18.8284 5.17157C17.6569 4 15.7712 4 12 4V4C8.22876 4 6.34315 4 5.17157 5.17157C4 6.34315 4 8.22876 4 12V18C4 18.9428 4 19.4142 4.29289 19.7071C4.58579 20 5.05719 20 6 20H12C15.7712 20 17.6569 20 18.8284 18.8284C18.8284 18.8284 18.8284 18.8284 18.8284 18.8284C20 17.6569 20 15.7712 20 12V12Z"
+                              stroke="#505050" stroke-width="2" />
+                            <path d="M9 10L15 10" stroke="#505050" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path d="M9 14H12" stroke="#505050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                          <p class="mb-0 mt-2">سوالات متداول</p>
+                        </a>
+                      </li>
+                      <li class="d-lg-none text-dark">
+                        <a class="d-flex align-items-center gap-2 py-1 py-lg-0 text-dark">
+                          <svg class="d-lg-none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                            fill="none">
+                            <circle cx="12" cy="12" r="9" stroke="#33363F" stroke-width="2" />
+                            <circle cx="12" cy="18" r="0.5" fill="#33363F" stroke="#33363F" />
+                            <path
+                              d="M12 16V14.5811C12 13.6369 12.6042 12.7986 13.5 12.5V12.5C14.3958 12.2014 15 11.3631 15 10.4189V9.90569C15 8.30092 13.6991 7 12.0943 7H12C10.3431 7 9 8.34315 9 10V10"
+                              stroke="#33363F" stroke-width="2" />
+                          </svg>
+                          <p class="mb-0 mt-2">راهنما</p>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- darkmode -->
+                    <div class="rounded-pill d-none d-lg-block w-38 h-21 bg-gray mr-66">
+                      <div
+                        class="w-20 h-20 rounded-circle d-flex align-items-center justify-content-center cursor-pointer second-bg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14" fill="none">
+                          <path
+                            d="M2.95028 1.34429L2.61211 1.83992L2.95028 1.34429ZM1.38106 12.4547L1.96314 12.3092L1.96314 12.3092L1.38106 12.4547ZM1.39709 12.5066L1.95993 12.2988L1.39709 12.5066ZM2.61232 10.4925C3.99457 9.54933 4.89992 7.96346 4.89992 6.1663H6.09992C6.09992 8.37676 4.98457 10.3265 3.2887 11.4838L2.61232 10.4925ZM4.89992 6.1663C4.89992 4.36905 3.99448 2.7831 2.61211 1.83992L3.28844 0.848667C4.98446 2.00586 6.09992 3.95573 6.09992 6.1663H4.89992ZM8.23325 7.00008C8.23325 4.10979 5.89021 1.76675 2.99992 1.76675V0.566748C6.55295 0.566748 9.43325 3.44705 9.43325 7.00008H8.23325ZM2.99992 12.2334C5.89021 12.2334 8.23325 9.89037 8.23325 7.00008H9.43325C9.43325 10.5531 6.55295 13.4334 2.99992 13.4334V12.2334ZM2.61211 1.83992C2.33895 1.65354 2.26079 1.33439 2.33152 1.07667C2.40395 0.81275 2.64821 0.566748 2.99992 0.566748V1.76675C3.25674 1.76675 3.43699 1.58278 3.48873 1.39426C3.53877 1.21194 3.48322 0.981564 3.28844 0.848667L2.61211 1.83992ZM3.2887 11.4838C2.72326 11.8696 2.34613 12.1282 2.11415 12.3298C1.9983 12.4304 1.9582 12.484 1.94935 12.4987C1.94827 12.5005 1.99162 12.4231 1.96314 12.3092L0.798978 12.6002C0.728248 12.3174 0.808825 12.0662 0.92181 11.8789C1.02702 11.7045 1.17782 11.5536 1.32707 11.4239C1.62528 11.1648 2.07512 10.8591 2.61232 10.4925L3.2887 11.4838ZM2.99992 13.4334C2.52802 13.4334 2.10035 13.4352 1.78084 13.3854C1.46676 13.3365 1.01363 13.2002 0.834249 12.7145L1.95993 12.2988C1.90124 12.1398 1.75547 12.167 1.96561 12.1997C2.17032 12.2316 2.48373 12.2334 2.99992 12.2334V13.4334ZM1.96314 12.3092C1.96226 12.3056 1.96119 12.3022 1.95993 12.2988L0.834249 12.7145C0.820426 12.6771 0.808656 12.6389 0.798978 12.6002L1.96314 12.3092Z"
+                            fill="#FBF9F9" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- login && contact -->
+                  <div class="d-flex align-items-center gap-5">
+                    <!-- login -->
+                    <div class="d-lg-flex d-none align-items-stretch w-156 h-27 bg-gray rounded-pill">
+                      <a class="text-white second-bg rounded-pill flex-grow-1 text-center">ورود</a>
+                      <a class="second-text rounded-pill flex-grow-1 text-center">ثبت نام</a>
+                    </div>
+                    <!-- social icons -->
+                    <div class="d-none d-lg-flex align-items-center gap-4">
+                      <a class="d-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                          <path
+                            d="M14.7071 11.7071L17.3552 14.3552C17.7113 14.7113 17.7113 15.2887 17.3552 15.6448C15.43 17.57 12.3821 17.7866 10.204 16.153L8.62857 14.9714C6.88504 13.6638 5.33622 12.115 4.02857 10.3714L2.84701 8.79601C1.21341 6.61788 1.43001 3.56999 3.35523 1.64477C3.71133 1.28867 4.28867 1.28867 4.64477 1.64477L7.29289 4.29289C7.68342 4.68342 7.68342 5.31658 7.29289 5.70711L6.27175 6.72825C6.10946 6.89054 6.06923 7.13846 6.17187 7.34373C7.35853 9.71706 9.28294 11.6415 11.6563 12.8281C11.8615 12.9308 12.1095 12.8905 12.2717 12.7283L13.2929 11.7071C13.6834 11.3166 14.3166 11.3166 14.7071 11.7071Z"
+                            stroke="#053B50" stroke-width="2" />
+                        </svg>
+                      </a>
+                      <a class="d-block position-relative">
+                        <div
+                          class="position-absolute w-14 h-14 fs-12 top-5 rounded-circle cursor-pointer d-flex align-items-center justify-content-center main-bg text-white fw-bold">
+                          1</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path
+                            d="M4 4H5.62563C6.193 4 6.47669 4 6.70214 4.12433C6.79511 4.17561 6.87933 4.24136 6.95162 4.31912C7.12692 4.50769 7.19573 4.7829 7.33333 5.33333L7.51493 6.05972C7.616 6.46402 7.66654 6.66617 7.74455 6.83576C8.01534 7.42449 8.5546 7.84553 9.19144 7.96546C9.37488 8 9.58326 8 10 8V8"
+                            stroke="#053B50" stroke-width="2" stroke-linecap="round" />
+                          <path
+                            d="M18 17H7.55091C7.40471 17 7.33162 17 7.27616 16.9938C6.68857 16.928 6.28605 16.3695 6.40945 15.7913C6.42109 15.7367 6.44421 15.6674 6.49044 15.5287V15.5287C6.54177 15.3747 6.56743 15.2977 6.59579 15.2298C6.88607 14.5342 7.54277 14.0608 8.29448 14.0054C8.3679 14 8.44906 14 8.61137 14H14"
+                            stroke="#053B50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M14.5279 14H10.9743C9.75838 14 9.15042 14 8.68147 13.7246C8.48343 13.6083 8.30689 13.4588 8.15961 13.2825C7.81087 12.8652 7.71092 12.2655 7.51103 11.0662C7.30849 9.85093 7.20722 9.2433 7.44763 8.79324C7.54799 8.60536 7.68722 8.44101 7.85604 8.31113C8.26045 8 8.87646 8 10.1085 8H16.7639C18.2143 8 18.9395 8 19.2326 8.47427C19.5257 8.94854 19.2014 9.59717 18.5528 10.8944L18.1056 11.7889C17.5677 12.8647 17.2987 13.4026 16.8154 13.7013C16.3321 14 15.7307 14 14.5279 14Z"
+                            stroke="#053B50" stroke-width="2" stroke-linecap="round" />
+                          <circle cx="17" cy="20" r="1" fill="#053B50" />
+                          <circle cx="9" cy="20" r="1" fill="#053B50" />
+                        </svg>
+                      </a>
+                      <a class="d-none d-lg-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <circle cx="12" cy="12" r="9" stroke="#053B50" stroke-width="2" />
+                          <circle cx="12" cy="18" r="0.5" fill="#053B50" stroke="#053B50" />
+                          <path
+                            d="M12 16V14.5811C12 13.6369 12.6042 12.7986 13.5 12.5V12.5C14.3958 12.2014 15 11.3631 15 10.4189V9.90569C15 8.30092 13.6991 7 12.0943 7H12C10.3431 7 9 8.34315 9 10V10"
+                            stroke="#053B50" stroke-width="2" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- logo -->
+                  <a class="d-flex d-lg-none align-items-center fs-20 fw-bold text-dark justify-content-center">
+                    <img alt="logo" src="assets/img/logo.png" class="img-fluid d-block w-122">
+                  </a>
+                </div>
+              </nav>
+            </header>
 
   <!-- main -->
 
@@ -334,7 +330,7 @@
 
     <!-- steps -->
     <section class="mt-5 max-w-640 mx-auto px-2 px-lg-0">
-      <div class="d-flex justify-content-between text-center position-relative" data-aos="fade-left">
+      <div class="d-flex justify-content-between text-center position-relative">
         <!-- line -->
         <svg class="w-100 position-absolute end-0 start-0 z-1 top-18" xmlns="http://www.w3.org/2000/svg" height="4"
           viewBox="0 0 602 4" fill="none">
@@ -456,7 +452,7 @@
       </div>
       <!--  -->
       <div class="mt-5 d-flex align-items-center justify-content-between">
-        <a class="d-flex align-items-center gap-1 rounded-10 bg-gray justify-content-center px-3 py-2">
+        <a href="order2.html" class="d-flex align-items-center gap-1 rounded-10 bg-gray justify-content-center px-3 py-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
               d="M19 12L19.7071 12.7071L20.4142 12L19.7071 11.2929L19 12ZM7 11C6.44771 11 6 11.4477 6 12C6 12.5523 6.44771 13 7 13V11ZM15.7071 16.7071L19.7071 12.7071L18.2929 11.2929L14.2929 15.2929L15.7071 16.7071ZM19.7071 11.2929L15.7071 7.29289L14.2929 8.70711L18.2929 12.7071L19.7071 11.2929ZM19 11H7V13H19V11Z"
@@ -464,7 +460,7 @@
           </svg>
           <p class="mb-0 fs-14 fw-bold text-muted">مرحله قبل</p>
         </a>
-        <a class="d-flex align-items-center gap-1 rounded-10 second-bg justify-content-center px-3 py-2">
+        <a href="order4.html" class="d-flex align-items-center gap-1 rounded-10 second-bg justify-content-center px-3 py-2">
           <p class="mb-0 fs-14 fw-bold text-white">مرحله بعد</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path
@@ -478,7 +474,7 @@
     <!-- faq -->
     <section class="mt-5">
       <div class="container">
-        <h5 data-aos-duration="2000" data-aos="fade-left"
+        <h5
           class="fs-20 second-text fw-bold mb-0 text-center position-relative mx-auto w-290 d-block">
           <svg class="position-absolute z-1 end-0" xmlns="http://www.w3.org/2000/svg" width="142" height="31"
             viewBox="0 0 142 31" fill="none">
@@ -490,10 +486,10 @@
         </h5>
         <div class="row gy-5 align-items-center mt-4">
           <div class="col-lg-8">
-            <div class="accordion" id="accordionExample" data-aos-duration="2000" data-aos="flip-left">
+            <div class="accordion" id="accordionExample">
               <div class="accordion-item mb-3">
                 <h2 class="accordion-header rounded-10">
-                  <button class="accordion-button second-text" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button ps-4 second-text" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     از چه جنس هایی می توانم پرینت سه بعدی کنم؟
                   </button>
@@ -507,7 +503,7 @@
               </div>
               <div class="accordion-item mb-3">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button ps-4 collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     محاسبه قیمت قطعات پرینت سه بعدی در صنعت بازار چگونه است؟
                   </button>
@@ -521,7 +517,7 @@
               </div>
               <div class="accordion-item mb-3">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button ps-4 collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     پرینتر سه بعدی با چه دقتی می تواند قطعات را بسازد؟
                   </button>
@@ -535,7 +531,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button ps-4 collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     چطور از مدل سه بعدی خروجی STL بگیرم؟
                   </button>
@@ -550,7 +546,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <img data-aos-duration="2000" data-aos="flip-right" alt="faqs" src="assets/img/Questions-bro 1.png"
+            <img alt="faqs" src="assets/img/Questions-bro 1.png"
               class="img-fluid d-block mx-auto railY2">
           </div>
         </div>
@@ -560,7 +556,7 @@
     <!-- social -->
     <section class="mt-5 pt-3">
       <div class="container">
-        <div data-aos-duration="2000" data-aos="fade-right"
+        <div
           class="rounded-15 h-79 px-md-5 px-3 social-bg d-flex align-items-center justify-content-between">
           <div class="d-flex align-items-center gap-4 flex-shrink-0">
             <img alt="social" src="assets/img/mockup 1.png" class="img-fluid railY2">
@@ -606,14 +602,22 @@
   <!-- footer -->
 
   <footer class="pt-5 mt-5 position-relative">
-    <a data-aos-duration="2000" data-aos="fade-down" href="#"
-      class="w-70 h-70 d-flex align-items-center justify-content-center second-bg rounded-circle position-absolute end-0 start-0 mx-auto top-8 mb-3">
+    <!-- wave -->
+    <svg class="position-absolute end-0 start-0 top-0 mx-auto d-lg-none" xmlns="http://www.w3.org/2000/svg" width="157"
+      height="69" viewBox="0 0 157 69" fill="none">
+      <path
+        d="M157 0H0C0 0 17.9501 0.000131607 25 23.4998C32.0499 46.9994 47 69 80 69C113 69 126.182 46.9995 132.841 23.4998C139.5 0 157 0 157 0Z"
+        fill="#fbf9f9" />
+    </svg>
+    <!--  -->
+    <a href="#"
+      class="w-70 h-70 d-flex align-items-center justify-content-center second-bg rounded-circle position-absolute end-0 start-0 mx-auto top-8 mb-4">
       <svg xmlns="http://www.w3.org/2000/svg" width="29" height="18" viewBox="0 0 29 18" fill="none">
         <path d="M27.2629 15.6467L14.5215 2.96727L1.76288 15.6296" stroke="white" stroke-width="4" />
       </svg>
     </a>
     <div class="container mt-5 mb-2">
-      <div class="row g-4 g-lg-0">
+      <div class="row mx-0 g-4 g-lg-0">
         <div class="col-lg-5">
           <ul class="d-flex flex-column flex-md-row align-items-md-center gap-5 list-unstyled p-0 mb-0">
             <li><a class="text-white">فروشگاه</a></li>
