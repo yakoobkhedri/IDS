@@ -1115,10 +1115,15 @@ footer {
 @media only screen and (max-width:1200px) {}
 
 @media only screen and (max-width:992px) {
-    footer {
-    background-color: #053b50;
+    .bg-lg-transparent {
+      background-color: transparent!important;
     }
-
+    .border-b-lg-transparent{
+        border-bottom: transparent;
+    }
+    .shadow-lg-transparent{
+        box-shadow: none!important;
+    }
     #menu {
         position: fixed;
         top: 0;
@@ -1151,6 +1156,7 @@ footer {
     }
     footer {
         padding-bottom: 110px !important;
+        background-color: #053b50;
     }
     footer .top-8 {
         top: -17px;
