@@ -852,7 +852,9 @@ input[type='number'],
     font-size: 26px;
     color: #053B50;
 }
-
+.banner .swiper-button-next::after,.banner .swiper-button-prev::after {
+    color: white;
+}
 .accordion-header,
 .accordion-item .accordion-button,.productFeatures {
     border-radius: 10px !important;

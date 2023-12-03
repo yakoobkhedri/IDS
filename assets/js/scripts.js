@@ -1,19 +1,19 @@
 // mobile menu
 
-let hamIcon=document.getElementById('hamIcon');
-let menu=document.getElementById('menu');
-let closemenu=document.getElementById('closemenu');
-let overlay=document.getElementById('overlay');
+let hamIcon = document.getElementById('hamIcon');
+let menu = document.getElementById('menu');
+let closemenu = document.getElementById('closemenu');
+let overlay = document.getElementById('overlay');
 
-hamIcon.addEventListener('click',function () {
+hamIcon.addEventListener('click', function () {
     menu.classList.add('active');
     overlay.classList.add('active');
 })
-closemenu.addEventListener('click',function () {
+closemenu.addEventListener('click', function () {
     menu.classList.remove('active');
     overlay.classList.remove('active');
 })
-overlay.addEventListener('click',function () {
+overlay.addEventListener('click', function () {
     menu.classList.remove('active');
     overlay.classList.remove('active');
 })
@@ -24,6 +24,10 @@ var banner = new Swiper(".banner", {
     slidesPerView: 1,
     autoplay: {
         delay: 2500,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 var models = new Swiper(".models", {
@@ -55,11 +59,11 @@ var testimonials = new Swiper(".testimonials", {
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
     },
     breakpoints: {
         576: {
@@ -76,4 +80,16 @@ var testimonials = new Swiper(".testimonials", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-  });
+});
+
+//  product slider
+
+let smallImg=Array.from(document.getElementsByClassName('smallImgs'));
+let bigImg=document.getElementById('bigImg');
+
+smallImg.forEach((item)=>{
+    item.addEventListener('click',function () {
+        let imgSrc=item.querySelector('img').src;
+        bigImg.src=imgSrc;
+    })
+})
