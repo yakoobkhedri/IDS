@@ -144,7 +144,9 @@ body.pannel {
 .bg-upload {
     background-color: #fcfcfc;
 }
-
+.bg-blue{
+    background-color: #0386C3;
+}
 .border-main {
     border: 2px solid #64CCC5;
 }
@@ -226,7 +228,12 @@ a {
     border-top-right-radius: 47%;
     border-top-left-radius: 47%;
 }
-
+.rounded-7{
+    border-radius: 7px;
+}
+.rounded-22{
+    border-radius: 22px;
+}
 .cursor-pointer {
     cursor: pointer;
 }
@@ -331,7 +338,9 @@ a {
     max-width: 876px;
     width: 100%;
 }
-
+.h-90{
+    height: 90px;
+}
 .h-100vh {
     height: 100vh;
 }
@@ -341,7 +350,9 @@ a {
 .w-109 {
     width: 109px;
 }
-
+.w-184 {
+    width: 184px;
+}
 .h-2 {
     height: 2px;
 }
@@ -520,7 +531,12 @@ a {
 .h-80 {
     height: 80px;
 }
-
+.w-22{
+    width: 22px;
+}
+.h-22{
+    height: 22px;
+}
 .w-90 {
     width: 90%;
 }
@@ -657,7 +673,9 @@ a {
 .fs-12 {
     font-size: 12px;
 }
-
+.fs-13 {
+    font-size: 13px;
+}
 .fs-14 {
     font-size: 14px;
 }
@@ -978,7 +996,12 @@ input[type='number'],
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.dashboardSat:hover, .dashboardSat.active {
+    background-color: #64CCC5 !important;
+  }
+  .dashboardSat:hover p.text-dark, .dashboardSat.active p.text-dark,.dashboardSat:hover p.text-gray, .dashboardSat.active p.text-gray {
+    color: white !important;
+  }
 /* header */
 header li:hover a,
 header a.active,
