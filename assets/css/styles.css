@@ -34,7 +34,9 @@ body.pannel {
 .bg-info-blur{
     background-color: #bed7d7;
 }
-
+.text-gray{
+    color: gray;
+}
 .main-bg {
     background-color: #64CCC5;
 }
@@ -76,7 +78,9 @@ body.pannel {
 .second-bg {
     background-color: #053B50;
 }
-
+.bg-second2{
+    background-color: #27817A;
+}
 .bg-gray {
     background-color: #D9D9D9;
 }
@@ -92,7 +96,9 @@ body.pannel {
 .bg-gray4 {
     background-color: #fbf9f9;
 }
-
+.bg-gray5{
+    background-color: #CCCCCC;
+}
 .bg-sky {
     background-color: #caf1f8;
 }
@@ -230,6 +236,9 @@ a {
 }
 .rounded-7{
     border-radius: 7px;
+}
+.rounded-9{
+    border-radius: 9px;
 }
 .rounded-22{
     border-radius: 22px;
@@ -507,7 +516,9 @@ a {
 .h-60 {
     height: 60px;
 }
-
+.w-41{
+    width: 41px;
+}
 .w-60 {
     width: 60px;
 }
@@ -515,7 +526,9 @@ a {
 .w-70 {
     width: 70px
 }
-
+.h-37{
+    height: 37px;
+}
 .h-70 {
     height: 70px
 }
@@ -997,10 +1010,12 @@ input[type='number'],
     background-repeat: no-repeat;
 }
 .dashboardSat:hover, .dashboardSat.active {
-    background-color: #64CCC5 !important;
+    background-color: #168981 !important;
   }
-  .dashboardSat:hover p.text-dark, .dashboardSat.active p.text-dark,.dashboardSat:hover p.text-gray, .dashboardSat.active p.text-gray {
+  .dashboardSat:hover p.text-dark, .dashboardSat.active p.text-dark,.dashboardSat:hover p.text-gray, .dashboardSat.active p.text-gray,
+  .dashboardSat:hover div svg:last-child path {
     color: white !important;
+    stroke: white;
   }
 /* header */
 header li:hover a,
