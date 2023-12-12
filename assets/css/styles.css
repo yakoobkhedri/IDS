@@ -787,6 +787,9 @@ a {
 .-bottom-6 {
     bottom: -6px;
 }
+.-bottom-24 {
+    bottom: -24px;
+}
 .bottom-45 {
     bottom: -45px;
 }
