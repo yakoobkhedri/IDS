@@ -246,6 +246,9 @@ a {
 .cursor-pointer {
     cursor: pointer;
 }
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
 .mt-54 {
     margin-top: -54px;
 }
