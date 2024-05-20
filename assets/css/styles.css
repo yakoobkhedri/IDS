@@ -530,6 +530,9 @@ a {
 .w-70 {
     width: 70px
 }
+.h-32{
+    height: 32px;
+}
 .h-37{
     height: 37px;
 }
@@ -845,7 +848,9 @@ a {
 .rounded-5 {
     border-radius: 1.5rem;
 }
-
+.rounded-7 {
+    border-radius: 7px;
+}
 .rounded-20 {
     border-radius: 20px;
 }
@@ -897,7 +902,7 @@ input[type='number'],
 .accordion-item .accordion-button,.productFeatures {
     border-radius: 10px !important;
     background: rgb(217, 217, 217);
-    background: linear-gradient(90deg, rgb(243, 242, 242) 0%, rgb(159, 211, 207) 66%, #d1f0ee 100%);
+    background: linear-gradient(90deg, rgb(23, 242, 242) 0%, rgb(159, 211, 207) 66%, #d1f0ee 100%);
 }
 
 .accordion-item {
