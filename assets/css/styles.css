@@ -103,6 +103,9 @@ body.pannel {
 .bg-gray5{
     background-color: #CCCCCC;
 }
+.bg-gray6{
+    background-color: #f1f1f1;
+}
 .bg-sky {
     background-color: #caf1f8;
 }
@@ -543,7 +546,9 @@ a {
 .w-80 {
     width: 80%;
 }
-
+.w-82 {
+    width: 82px;
+}
 .w-88 {
     width: 88px;
 }
