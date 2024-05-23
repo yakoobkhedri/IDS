@@ -88,7 +88,9 @@ body.pannel {
 .bg-gray {
     background-color: #D9D9D9;
 }
-
+.bg-gradient-main{
+    background: linear-gradient(90deg, rgba(39, 59, 74, 1) 15%, rgba(73, 140, 142, 1) 56%, rgba(100, 204, 197, 1) 100%);
+}
 .bg-gray2 {
     background: linear-gradient(rgba(110, 112, 9, 0) 0%, rgba(110, 112, 9, 0.07) 100%);
 }
@@ -365,6 +367,9 @@ a {
 }
 .h-109 {
     height: 109px;
+}
+.w-106 {
+    width: 106%;
 }
 .w-109 {
     width: 109px;
@@ -1070,7 +1075,32 @@ header ul li circle,
 header ul li g {
     transition: all .4s;
 }
-
+/* aside */
+.aside li a > div > div,.aside li a > div > div,.aside li p,.aside li p,.aside li,.aside li{
+    transition: all .4s;
+}
+.aside li:hover,.aside li.active{
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.aside li > img{
+    opacity: 0;;
+    transition: all .4s;
+    left: -16px!important;
+    right: auto!important;
+}
+.aside li:hover > img,.aside li.active > img{
+    opacity: 100%;
+}
+.aside li:hover p,.aside li.active p{
+    color: black!important;
+}
+.aside li:hover a > svg path,.aside li.active a > svg path{
+    stroke: black!important;
+}
+.aside li:hover a > div > div,.aside li.active a > div > div{
+    background-color: #64CCC5;
+}
 /* banner */
 .colors div.w-36,
 .colors div.w-26 {
