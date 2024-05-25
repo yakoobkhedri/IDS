@@ -261,6 +261,9 @@ a {
 .mt-54 {
     margin-top: -54px;
 }
+.-mt-58 {
+    margin-top: -58px;
+}
 .mt-93 {
     margin-top: -93px;
 }
@@ -368,11 +371,20 @@ a {
 .h-109 {
     height: 109px;
 }
+.w-16 {
+    width: 16px;
+}
+.w-101 {
+    width: 101px;
+}
 .w-106 {
     width: 106%;
 }
 .w-109 {
     width: 109px;
+}
+.w-176 {
+    width: 176px;
 }
 .w-184 {
     width: 184px;
@@ -392,7 +404,9 @@ a {
 .h-14 {
     height: 14px;
 }
-
+.h-16 {
+    height: 16px;
+}
 .w-14 {
     width: 14px;
 }
@@ -503,7 +517,9 @@ a {
 .h-46 {
     height: 46px;
 }
-
+.h-48 {
+    height: 48px;
+}
 .w-40 {
     width: 10rem;
 }
@@ -586,6 +602,9 @@ a {
 }
 .w-101 {
     width: 101px;
+}
+.w-115 {
+    width: 115px;
 }
 .w-123 {
     width: 123px;
@@ -978,7 +997,6 @@ input[type='number'],
 .railX {
     animation: railX 5s infinite linear;
 }
-
 @keyframes railY {
     0% {
         transform: translateY(-90px);

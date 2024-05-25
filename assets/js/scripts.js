@@ -93,3 +93,6 @@ smallImg.forEach((item)=>{
         bigImg.src=imgSrc;
     })
 })
+// datapicker
+
+jalaliDatepicker.startWatch();
