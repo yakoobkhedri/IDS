@@ -165,7 +165,9 @@ body.pannel {
 .border-main {
     border: 2px solid #64CCC5;
 }
-
+.border-l-main{
+    border-left: 1px solid #64CCC5;
+}
 .border-dotted {
     border: 2px dotted gray;
 }
@@ -226,7 +228,7 @@ a {
     background-color: transparent;
 }
 
-.main-hover:hover {
+.main-hover:hover,.main-hover.active {
     background-color: #64ccc5;
     color: white !important;
 }
@@ -383,6 +385,9 @@ a {
 .w-109 {
     width: 109px;
 }
+.w-172 {
+    width: 172px;
+}
 .w-176 {
     width: 176px;
 }
@@ -527,11 +532,15 @@ a {
 .w-41 {
     width: 41px;
 }
-
+.w-48 {
+    width: 48px;
+}
 .w-52 {
     width: 52px;
 }
-
+.h-48 {
+    height: 48px;
+}
 .h-52 {
     height: 52px;
 }
