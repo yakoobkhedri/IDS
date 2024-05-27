@@ -41,6 +41,18 @@ body.pannel {
 .text-gray{
     color: gray;
 }
+.text-gray2{
+    color: #33363F;
+}
+.text-orange{
+    color: #ff9f40;
+}
+.text-green{
+    color: #36a2eb;
+}
+.text-red{
+    color: #ff6384;
+}
 .main-bg {
     background-color: #64CCC5;
 }
@@ -229,10 +241,15 @@ a {
 }
 
 .main-hover:hover,.main-hover.active {
-    background-color: #64ccc5;
+    background-color: #64ccc5!important;
     color: white !important;
 }
-
+.main-hover stop{
+   transition: all .4s;
+}
+.main-hover:hover stop{
+    stop-color: white;
+}
 .rounded-bl-0 {
     border-radius: 20px 20px 20px 0;
 }
@@ -366,6 +383,9 @@ a {
 }
 .h-90{
     height: 90px;
+}
+.h-96{
+    height: 96px;
 }
 .h-100vh {
     height: 100vh;
