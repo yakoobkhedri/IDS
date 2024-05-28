@@ -98,10 +98,10 @@ body.pannel {
     background-color: #27817A;
 }
 .bg-gray {
-    background-color: #D9D9D9;
+    background-color: #fbf9f9;
 }
 .bg-gradient-main{
-    background: linear-gradient(90deg, rgba(39, 59, 74, 1) 15%, rgba(73, 140, 142, 1) 56%, rgba(100, 204, 197, 1) 100%);
+    background: linear-gradient(90deg, rgba(100, 204, 197, 1) 15%, rgba(73, 140, 142, 1) 56%, rgba(39, 59, 74, 1) 100%);
 }
 .bg-gray2 {
     background: linear-gradient(rgba(110, 112, 9, 0) 0%, rgba(110, 112, 9, 0.07) 100%);
@@ -299,7 +299,9 @@ a {
 .top-5 {
     top: -5px;
 }
-
+.top-10 {
+    top: 10px;
+}
 .top-24 {
     top: 24px;
 }
@@ -404,6 +406,9 @@ a {
 }
 .w-109 {
     width: 109px;
+}
+.w-119 {
+    width: 119px;
 }
 .w-172 {
     width: 172px;
@@ -1254,7 +1259,11 @@ footer {
 
 @media only screen and (min-width:1200px) {}
 
-@media only screen and (max-width:1200px) {}
+@media only screen and (max-width:1200px) {
+    .w-xl-100{
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width:992px) {
     .bg-lg-transparent {
@@ -1304,6 +1313,10 @@ footer {
         top: -17px;
       }
       
+    .w-lg-100{
+        width: 100%;
+    }
+      
 }
 
 @media only screen and (max-width:768px) {
@@ -1314,7 +1327,9 @@ footer {
     .insta {
         width: 52px;
     }
-
+     .w-md-100{
+        width: 100%!important;
+     }
     .w-363,.submitComment {
         width: 100% !important;
     }
