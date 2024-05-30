@@ -554,8 +554,8 @@
           <div class="col-xxl-9 col-xl-8 px-1 px-lg-4 pb-5">
             <div class="row g-4 mx-0">
               <div class="col-12">
-                <div class="d-flex align-items-center justify-content-between gap-3 mb-3">
-                  <div class="d-flex align-items-center gap-3">
+                <div class="d-flex align-items-center flex-wrap justify-content-between gap-3 mb-3">
+                  <div class="d-flex flex-wrap align-items-center gap-3">
                     <div class="d-flex align-items-center gap-2 bg-white h-48 w-115 w-sm-100 rounded-10 px-2 shadow">
                       <input data-jdp="" class="outline-none border flex-grow-1 w-100 border-0 fs-10" placeholder="تاریخ">
                       <svg class="flex-shrink-0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -592,7 +592,7 @@
                 </div>
                 <div class="rounded-22 px-4 py-3 bg-white shadow text-center mb-3">
                    <div>
-                     <div class="row align-items-center mx-0 border-b-main-2 fs-12 fw-bold pt-2 pb-3">
+                     <div class="row d-none d-lg-flex align-items-center mx-0 border-b-main-2 fs-12 fw-bold pt-2 pb-3">
                        <div class="col-lg-1">
                         <input type="checkbox" class="form-check-input d-block w-16 h-16">
                        </div>
@@ -604,17 +604,36 @@
                        <div class="col-lg-2">تاریخ</div>
                        <div class="col-lg-1">اقدام</div>
                      </div>
-                     <div class="row align-items-center mx-0 border-bottom fs-12 fw-bold py-3 align-items-center text-secondary">
+                     <div class="row gy-3 gy-lg-0 align-items-center mx-0 border-bottom fs-12 fw-bold py-3 align-items-center text-secondary">
                       <div class="col-lg-1">
                         <input type="checkbox" class="form-check-input d-block w-16 h-16">
                        </div>
-                       <div class="col-lg-1">کد ۱۲۳۴۴۵</div>
-                       <div class="col-lg-1">985,000 تومان</div>
-                       <div class="col-lg-2">485,000 تومان</div>
-                       <div class="col-lg-2 d-flex align-items-center justify-content-center"><p class="bg-success fs-10 mb-0 fw-bold text-white rounded-5 py-2 px-4">تکمیل شده</p></div>
-                       <div class="col-lg-2">علی انصاری</div>
-                       <div class="col-lg-2">۲۳ اردیبهشت ۱۴۰۳</div>
-                       <div class="col-lg-1">
+                       <div class="col-lg-1 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">سفارش</p>
+                        <p class="mb-0">کد ۱۲۳۴۴۵</p>
+                       </div>
+                       <div class="col-lg-1 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">مجموع سفارش</p>
+                        <p class="mb-0">985,000 تومان</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">درآمد</p>
+                        <p class="mb-0">485,000 تومان</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">وضعیت</p>
+                        <p class="bg-success fs-10 mb-0 fw-bold text-white rounded-5 py-2 px-4">تکمیل شده</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">مشتری</p>
+                        <p class="mb-0">علی انصاری</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">تاریخ</p>
+                        <p class="mb-0">۲۳ اردیبهشت ۱۴۰۳</p>
+                      </div>
+                       <div class="col-lg-1 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">اقدام</p>
                         <svg class="cursor-pointer" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="26" height="24" rx="5" fill="#64CCC5"/>
                         <g clip-path="url(#clip0_249_6999)">
@@ -628,33 +647,52 @@
                         </svg>
                       </div>
                     </div>
-                    <div class="row align-items-center mx-0 border-bottom fs-12 fw-bold py-3 align-items-center text-secondary">
-                     <div class="col-lg-1">
-                       <input type="checkbox" class="form-check-input d-block w-16 h-16">
-                      </div>
-                      <div class="col-lg-1">کد ۱۲۳۴۴۵</div>
-                      <div class="col-lg-1">985,000 تومان</div>
-                      <div class="col-lg-2">485,000 تومان</div>
-                      <div class="col-lg-2 d-flex align-items-center justify-content-center"><p class="bg-danger fs-10 mb-0 fw-bold text-white rounded-5 py-2 px-4">در حال انتظار</p></div>
-                      <div class="col-lg-2">علی انصاری</div>
-                      <div class="col-lg-2">۲۳ اردیبهشت ۱۴۰۳</div>
+                    <div class="row gy-3 gy-lg-0 align-items-center mx-0 fs-12 fw-bold py-3 align-items-center text-secondary">
                       <div class="col-lg-1">
-                       <svg class="cursor-pointer" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                       <rect width="26" height="24" rx="5" fill="#64CCC5"/>
-                       <g clip-path="url(#clip0_249_6999)">
-                       <path d="M20.3857 11.6411C20.2716 11.4781 17.6303 7.59766 12.9998 7.59766C8.3694 7.59766 5.72809 11.4781 5.61396 11.6411C5.46722 11.8531 5.46722 12.1466 5.61396 12.3748C5.72809 12.5216 8.3694 16.402 12.9998 16.402C17.6303 16.402 20.2716 12.5216 20.3857 12.3585C20.5324 12.1466 20.5324 11.8531 20.3857 11.6411ZM12.9998 15.0977C9.85309 15.0977 7.70092 12.8803 6.96722 11.9998C7.70092 11.1031 9.83679 8.902 12.9998 8.902C16.1466 8.902 18.2987 11.1194 19.0324 11.9998C18.2824 12.8966 16.1466 15.0977 12.9998 15.0977ZM13.3748 9.32592C12.6574 9.22809 11.9564 9.40744 11.3694 9.84766C10.1792 10.7444 9.93461 12.44 10.8314 13.6303C11.2716 14.2172 11.8911 14.5759 12.6085 14.69C12.739 14.7064 12.8694 14.7227 12.9835 14.7227C13.5705 14.7227 14.1248 14.527 14.5977 14.1846C15.7879 13.2879 16.0324 11.5922 15.1357 10.402C14.7281 9.79874 14.0922 9.42374 13.3748 9.32592ZM14.027 13.3857C13.6683 13.6629 13.2118 13.777 12.7553 13.7118C12.2987 13.6466 11.8911 13.402 11.614 13.0433C11.0596 12.277 11.2064 11.1846 11.9727 10.614C12.3314 10.3368 12.7879 10.2227 13.2444 10.2879C13.7009 10.3531 14.1085 10.5977 14.3857 10.9564C14.94 11.7227 14.7933 12.815 14.027 13.3857ZM13.9618 11.0216C14.0922 11.1357 14.1574 11.315 14.1574 11.4781C14.1574 11.6411 14.0922 11.8205 13.9618 11.9346C13.8477 12.0487 13.6683 12.1303 13.5053 12.1303C13.3259 12.1303 13.1629 12.065 13.0487 11.9346C12.9183 11.8042 12.8531 11.6411 12.8531 11.4781C12.8531 11.2987 12.9183 11.1357 13.0487 11.0216C13.1629 10.8911 13.3422 10.8259 13.5053 10.8259C13.6846 10.8422 13.8477 10.9074 13.9618 11.0216Z" fill="#FCFCFC"/>
-                       </g>
-                       <defs>
-                       <clipPath id="clip0_249_6999">
-                       <rect width="15" height="15" fill="white" transform="translate(5.5 4.5)"/>
-                       </clipPath>
-                       </defs>
-                       </svg>
-                     </div>
-                   </div>
+                        <input type="checkbox" class="form-check-input d-block w-16 h-16">
+                       </div>
+                       <div class="col-lg-1 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">سفارش</p>
+                        <p class="mb-0">کد ۱۲۳۴۴۵</p>
+                       </div>
+                       <div class="col-lg-1 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">مجموع سفارش</p>
+                        <p class="mb-0">985,000 تومان</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">درآمد</p>
+                        <p class="mb-0">485,000 تومان</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">وضعیت</p>
+                        <p class="bg-danger fs-10 mb-0 fw-bold text-white rounded-5 py-2 px-4">در حال انتظار</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">مشتری</p>
+                        <p class="mb-0">علی انصاری</p>
+                       </div>
+                       <div class="col-lg-2 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">تاریخ</p>
+                        <p class="mb-0">۲۳ اردیبهشت ۱۴۰۳</p>
+                      </div>
+                       <div class="col-lg-1 d-flex justify-content-between justify-content-lg-center align-items-center gap-3">
+                        <p class="mb-0 d-lg-none text-dark">اقدام</p>
+                        <svg class="cursor-pointer" width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="26" height="24" rx="5" fill="#64CCC5"/>
+                        <g clip-path="url(#clip0_249_6999)">
+                        <path d="M20.3857 11.6411C20.2716 11.4781 17.6303 7.59766 12.9998 7.59766C8.3694 7.59766 5.72809 11.4781 5.61396 11.6411C5.46722 11.8531 5.46722 12.1466 5.61396 12.3748C5.72809 12.5216 8.3694 16.402 12.9998 16.402C17.6303 16.402 20.2716 12.5216 20.3857 12.3585C20.5324 12.1466 20.5324 11.8531 20.3857 11.6411ZM12.9998 15.0977C9.85309 15.0977 7.70092 12.8803 6.96722 11.9998C7.70092 11.1031 9.83679 8.902 12.9998 8.902C16.1466 8.902 18.2987 11.1194 19.0324 11.9998C18.2824 12.8966 16.1466 15.0977 12.9998 15.0977ZM13.3748 9.32592C12.6574 9.22809 11.9564 9.40744 11.3694 9.84766C10.1792 10.7444 9.93461 12.44 10.8314 13.6303C11.2716 14.2172 11.8911 14.5759 12.6085 14.69C12.739 14.7064 12.8694 14.7227 12.9835 14.7227C13.5705 14.7227 14.1248 14.527 14.5977 14.1846C15.7879 13.2879 16.0324 11.5922 15.1357 10.402C14.7281 9.79874 14.0922 9.42374 13.3748 9.32592ZM14.027 13.3857C13.6683 13.6629 13.2118 13.777 12.7553 13.7118C12.2987 13.6466 11.8911 13.402 11.614 13.0433C11.0596 12.277 11.2064 11.1846 11.9727 10.614C12.3314 10.3368 12.7879 10.2227 13.2444 10.2879C13.7009 10.3531 14.1085 10.5977 14.3857 10.9564C14.94 11.7227 14.7933 12.815 14.027 13.3857ZM13.9618 11.0216C14.0922 11.1357 14.1574 11.315 14.1574 11.4781C14.1574 11.6411 14.0922 11.8205 13.9618 11.9346C13.8477 12.0487 13.6683 12.1303 13.5053 12.1303C13.3259 12.1303 13.1629 12.065 13.0487 11.9346C12.9183 11.8042 12.8531 11.6411 12.8531 11.4781C12.8531 11.2987 12.9183 11.1357 13.0487 11.0216C13.1629 10.8911 13.3422 10.8259 13.5053 10.8259C13.6846 10.8422 13.8477 10.9074 13.9618 11.0216Z" fill="#FCFCFC"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_249_6999">
+                        <rect width="15" height="15" fill="white" transform="translate(5.5 4.5)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                      </div>
+                    </div>
                    </div>
                 </div>
-                <div class="d-flex justify-content-start me-auto w-172 border-main rounded-3 fs-10 fw-bold bg-white">
+                <div class="d-flex justify-content-start ms-auto ms-sm-0 me-auto w-172 border-main rounded-3 fs-10 fw-bold bg-white">
                  <a class="px-3 py-2 main-hover main-text border-l-main">بعدی</a>
                  <a class="px-3 py-2 main-hover active main-text border-l-main">1</a>
                  <a class="px-3 py-2 main-hover main-text border-l-main">2</a>
